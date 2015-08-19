@@ -1,7 +1,7 @@
 # Site settings
 title: Kristofer Dubbels
 email: dubbk381@alumni.newschool.edu
-description: Moving along. :train2:
+description: Moving along.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: dubbelsyrfun
