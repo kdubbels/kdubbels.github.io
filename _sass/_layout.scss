@@ -1,4 +1,28 @@
 /**
+ * Overall Layout
+ */
+#container {
+  min-height:100%;
+  position:relative;
+}
+
+#footer {
+  width:100%;
+  height:100px;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+#header {
+    padding:0;
+}
+
+.page-content {
+  min-height:100%;
+  position:relative;
+}
+/**
  * Site header
  */
 
@@ -21,7 +45,7 @@ $parallax-background-height: $parallax-window-height * 2;
 }
 
 .parallax-background {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background: url("../images/wood.png") repeat;
   background-position: top;
   background-size: cover;
   background-color: beige;
@@ -48,4 +72,15 @@ left: 0;
 bottom: 0;
 }
 
-
+#bar
+{
+    background: url(http://cdn.socket.io/website/imgs/galaxy.jpg);
+    height: 7px;
+    background-size: cover;
+    background-position: left 60%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+}
