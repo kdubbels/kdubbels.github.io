@@ -1,6 +1,38 @@
 /**
  * Site header
  */
+
+ //BOURBON PARALLAX SNIPPET
+$parallax-window-height: 30em;
+$parallax-background-height: $parallax-window-height * 2;
+
+.parallax-window {
+  max-height: $parallax-window-height;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.parallax-static-content {
+  color: #9A9A8A;
+  padding: 8em 0;
+  position: relative;
+  z-index: 9;
+}
+
+.parallax-background {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: beige;
+  height: $parallax-background-height;
+  left: 0;
+  position: absolute;
+  top: - $parallax-window-height / 3;
+  width: 100%;
+}
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -91,9 +123,24 @@
 /**
  * Site footer
  */
+
+.stripes
+{
+width: 100%;
+content: '';
+background: linear-gradient(to right,#075859 0,#075859 12%,#096F70 12%,#096F70 28%,#D7A487 28%,#D7A487 40%,#DA8469 40%,#DA8469 54%,#BE6A6A 54%,#BE6A6A 71%,#723147 71%,#723147 86%,#374140 86%,#374140 100%);
+height: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+}
+
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: #374140;
+    color: #FFF;
+
 }
 
 .footer-heading {
@@ -109,7 +156,6 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -180,7 +226,6 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
 }
 
 .post-link {
