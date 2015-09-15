@@ -8,15 +8,15 @@
     <!-- typekit -->
     <script src="https://use.typekit.net/cbs8rwp.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- prevent TypeKit FOUC -->
 <style>
-.wf-loading body {
+  .wf-loading body {
     font-family: "futura-pt";
     visibility: hidden;
   }
   .wf-active body {
     visibility: visible;
   }
-
 </style>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
