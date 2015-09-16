@@ -53,13 +53,18 @@
 </script>
 
 <script>
+  var jsHeight = document.getElementById("container").offsetHeight;
+  console.log(jsHeight);
+
+  var jqueryHeight = $(document).outerHeight();
+  console.log(jqueryHeight);
+
 function setHeaderScroll() {
   var height = $(document).outerHeight() - $(window).outerHeight(),
     perc = ($(window).scrollTop()/height*100);
     console.log(height);
   $('#bar').css({"backgroundPosition": "left "+perc+"%"});
-  var jsHeight = document.offsetHeight - window.offsetHeight;
-  console.log(jsHeight);
+
 }
 
 $(window).scroll(setHeaderScroll);
