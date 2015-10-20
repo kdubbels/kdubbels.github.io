@@ -15,4 +15,6 @@ My other project is a relatively straighforward CMS I'm building in Rails. Why d
 
 [https://github.com/kdubbels/dub-cms](https://github.com/kdubbels/dub-cms)
 
+I'd also like to do some work on this site, which strictly uses the Jekyll default styling. Unlikely I will put much work into it in the near future, but at the minimum I plan on spending some time with Typekit until I find something that feels right. I've made heavy use of Futura in the past, and it will probably always be my favorite typeface, but it just doesn't work on the screen the way it works in print (or better, reallly big on walls and stuff).
+
 Peace. Feels good. :feelsgood:
