@@ -3,16 +3,17 @@ Anderson - American Foreign Policy and Its Thinkers
 Anderson - Origins of Postmodernity
 Auge, Marc - The Future
 Badiou - Rebirth of History
+Chomsky - Power Systems
 Coates - Between the World and Me
 Dew - Apostles of Disunion
 Diner - Lost in the Sacred
 Fitzgerald - The Great Gatsby
 Foner - Short History of Reconstruction
 Gallagher - The Union War
-Grabber - Utopia of Rules
+Graeber - Utopia of Rules
 Hobsbawm - Age of Capital
 Karatani - Structure of World History
-Carassin - Transcritique
+Karatani - Transcritique
 Lapavitsas - Profiting Without Producing
 Lazzarato - Governing By Debt
 Lazzarato - The Making of Indebted Man
@@ -23,7 +24,7 @@ McPherson - Battle Cry of Freedom
 Posner - A Failure of Capitalism
 Pynchon - Crying of Lot 49
 Schiller - Finance and the Good Society
-Scum peter - Capitalism, Socialism, and Democracy
+Schumpeter - Capitalism, Socialism, and Democracy
 Steedman - Value Controversy
 Streeck - Buying Time
 Varoufakis - The Global Minotaur
