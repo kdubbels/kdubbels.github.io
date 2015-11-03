@@ -7,11 +7,13 @@ Chomsky - Power Systems
 Cleaver - Reading Capital Politically
 Coates - Between the World and Me
 Dew - Apostles of Disunion
+Dewar - Getting Started With D3
 Diner - Lost in the Sacred
 Fitzgerald - The Great Gatsby
 Foner - Short History of Reconstruction
 Gallagher - The Union War
 Graeber - Utopia of Rules
+Heilbroner - Worldly Philosophers
 Hobsbawm - Age of Capital
 Karatani - Structure of World History
 Karatani - Transcritique
@@ -26,6 +28,7 @@ Posner - A Failure of Capitalism
 Pynchon - Crying of Lot 49
 Schiller - Finance and the Good Society
 Schumpeter - Capitalism, Socialism, and Democracy
+Snyder - Black Earth
 Steedman - Value Controversy
 Streeck - Buying Time
 Varoufakis - The Global Minotaur
