@@ -6,6 +6,7 @@ Badiou - Rebirth of History
 Chomsky - Power Systems
 Cleaver - Reading Capital Politically
 Coates - Between the World and Me
+Connolly - A World of Becoming
 Dew - Apostles of Disunion
 Dewar - Getting Started With D3
 Diner - Lost in the Sacred
@@ -18,6 +19,7 @@ Heilbroner - Worldly Philosophers
 Hobsbawm - Age of Capital
 Karatani - Structure of World History
 Karatani - Transcritique
+Krugman - End This Depression Now
 Lapavitsas - Profiting Without Producing
 Lazzarato - Governing By Debt
 Lazzarato - The Making of Indebted Man
@@ -34,3 +36,4 @@ Steedman - Value Controversy
 Streeck - Buying Time
 Varoufakis - The Global Minotaur
 Virno - A Grammar of the Multitude
+Zizek - The Year of Dreaming Dangerously
