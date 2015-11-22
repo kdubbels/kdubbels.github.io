@@ -5,13 +5,16 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    font-family: Megrim, cursive;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    color:#FFF;
 }
 
 .site-title {
     font-size: 26px;
+    font-family: Megrim, cursive;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -19,7 +22,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #FFF;
     }
 }
 
@@ -32,7 +35,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #FFF;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -72,6 +75,7 @@
         .trigger {
             clear: both;
             display: none;
+            color:#FFF;
         }
 
         &:hover .trigger {
@@ -94,6 +98,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    font-family: Megrim, cursive;
 }
 
 .footer-heading {
@@ -163,6 +168,21 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+
+$gold: #FFB900;
+$coral: #FC636B;
+$brightCoral: #FF6D92;
+
+  $opacity: 90%;
+  align-items: center;
+  background: linear-gradient(
+                  to top right,
+                  mix($coral, white, $opacity) 10%,
+                  mix($brightCoral, white, $opacity) 65%,
+                  mix($gold, white, $opacity) 125%); 
+  transition: opacity 1s;
+
 }
 
 .page-heading {
@@ -233,4 +253,27 @@
             font-size: 18px;
         }
     }
+}
+
+
+#bar {
+  background: url(http://cdn.socket.io/website/imgs/galaxy.jpg);
+  height: 21px;
+  background-size: cover;
+  background-position: left 60%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
+
+border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
