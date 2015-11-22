@@ -11,6 +11,7 @@ Dew - Apostles of Disunion
 Dewar - Getting Started With D3
 Diner - Lost in the Sacred
 Doyle - Campus Sex/Campus Security
+Elson - Value: The Representation of Labor in Capitalism
 Fitzgerald - The Great Gatsby
 Foner - Short History of Reconstruction
 Gallagher - The Union War
@@ -19,6 +20,7 @@ Heilbroner - Worldly Philosophers
 Hobsbawm - Age of Capital
 Karatani - Structure of World History
 Karatani - Transcritique
+Korsch - Marxism and Philosophy
 Krugman - End This Depression Now
 Lapavitsas - Profiting Without Producing
 Lazzarato - Governing By Debt
