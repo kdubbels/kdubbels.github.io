@@ -2,7 +2,7 @@
 title: Kristofer Dubbels
 email: dubbk381@alumni.newschool.edu
 description: Moving along.
-baseurl: "https://kdubbels.github.io/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://kdubbels.github.io/" # the base hostname & protocol for your site
 twitter_username: dubbelsyrfun
 github_username:  kdubbels
