@@ -25,7 +25,7 @@
         color: #FFF;
     }
 }
-
+/*
 .site-nav {
     float: right;
     line-height: 56px;
@@ -52,6 +52,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        z-index:999;
 
         .menu-icon {
             display: block;
@@ -76,6 +77,7 @@
             clear: both;
             display: none;
             color:#FFF;
+            z-index:999;
         }
 
         &:hover .trigger {
@@ -89,7 +91,7 @@
         }
     }
 }
-
+*/
 
 
 /**
@@ -265,7 +267,7 @@ $brightCoral: #FF6D92;
   top: 0;
   width: 100%;
   overflow: hidden;
-  z-index: 1000;
+//  z-index: 900;
 
 border: 0;
   font-family: inherit;
