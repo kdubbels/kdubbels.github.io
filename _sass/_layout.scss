@@ -2,6 +2,8 @@
  * Site header
  */
 .site-header {
+    @include outer-container;
+
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -13,6 +15,8 @@
 }
 
 .site-title {
+    @include span-columns(6);
+
     font-size: 26px;
     font-family: Megrim, cursive;
     line-height: 56px;
@@ -27,14 +31,14 @@
 }
 /*
 .site-nav {
+    @include span-columns(6);
+    @include omega();
+
     float: right;
     line-height: 56px;
 
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
+    .page-link, .page-link a {
+        float: right;
         color: #FFF;
         line-height: $base-line-height;
 
@@ -42,53 +46,11 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
+        &,
+        &:visited {
+        color: #FFF;
     }
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-        z-index:999;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-            color:#FFF;
-            z-index:999;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
     }
 }
 */
@@ -259,7 +221,7 @@ $brightCoral: #FF6D92;
 
 
 #bar {
-  background: url(http://cdn.socket.io/website/imgs/galaxy.jpg);
+  background: url("/images/galaxy.jpg");
   height: 21px;
   background-size: cover;
   background-position: left 0%;
