@@ -30,7 +30,7 @@
   overflow: default;
 }
 
-/*
+
 .error:after {
   content: 'kristofer dubbels';
   font-family: 'Megrim', serif;
@@ -50,7 +50,7 @@
   color: blue;
   animation: noise-1 .2s linear infinite;
 }
-*/
+
 
 .info {
   text-align: center;
@@ -69,7 +69,7 @@
   animation: noise-3 1s linear infinite;
 }
 
-/*
+
 .error:before {
   content: 'kristofer';
   font-family: 'Megrim', serif;
@@ -89,7 +89,7 @@
   color: red;
   animation: noise-2 .2s linear infinite;
 }
-*/
+
 
 @keyframes noise-1 {
   0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
