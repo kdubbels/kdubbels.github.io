@@ -1,36 +1,56 @@
 Althusser - For Marx
 Anderson - American Foreign Policy and Its Thinkers
 Anderson - Origins of Postmodernity
+Atwood - Payback: Debt and the Shadow Side of Wealth
 Auge, Marc - The Future
-Badiou - Rebirth of History
-Chomsky - Power Systems
+Badiou - Rebirth of History: Times of Riots and Uprisings
+Bendis et al - Jessica Jones: Alias vol. 1
+Bendis et al - Jessica Jones: Alias vol. 2
+Bendis et al - Daredevil: End of Days
+Berardi - The Uprising: On Poetry and Finance 
+Chomsky - Power System: Conversations with David Barsamian on Global Democratic Uprisings and the New Challenges to U.S. Empires
 Cleaver - Reading Capital Politically
 Coates - Between the World and Me
-Dew - Apostles of Disunion
+Connolly - A World of Becoming
+Carmichael, Cooper, Laing, Marcuse, et al - Dialectics of Liberation
+Copjec - Read My Desire: Lacan Against the Historicists
+Dew - Apostles of Disunion: Southern Secession Commissioners and the Causes of the Civil War
 Dewar - Getting Started With D3
-Diner - Lost in the Sacred
+Diner - Lost in the Sacred: Why the Muslim World Stood Still
+Doyle - Campus Sex/Campus Security
+Elson - Value: The Representation of Labor in Capitalism
 Fitzgerald - The Great Gatsby
-Foner - Short History of Reconstruction
+Foner - A Short History of Reconstruction
 Gallagher - The Union War
-Graeber - Utopia of Rules
-Heilbroner - Worldly Philosophers
-Hobsbawm - Age of Capital
-Karatani - Structure of World History
-Karatani - Transcritique
-Lapavitsas - Profiting Without Producing
+Graeber - Utopia of Rules: On Technology, Stupidity and the Secret Joys of Bureaucracy
+Heilbroner - Worldly Philosophers: The Lives, Times And Ideas Of The Great Economic Thinkers
+Hobsbawm - Age of Capital: 1848-1875
+Karatani - Structure of World History: From Modes of Production to Modes of Exchange
+Karatani - Transcritique: On Kant and Marx
+Korsch - Marxism and Philosophy
+Krugman - End This Depression Now!
+Lanchester - How to Speak Money: What the Money People Say-And What It Really Means
+Lapavitsas - Profiting Without Producing: How Finance Exploits Us All
 Lazzarato - Governing By Debt
 Lazzarato - The Making of Indebted Man
+Leibniz - Monadology
 Lorey - State of Insecurity
-Levine - Half Slave, Half Free
-Mattick - Business as Usual
-McPherson - Battle Cry of Freedom
-Posner - A Failure of Capitalism
-Pynchon - Crying of Lot 49
-Schiller - Finance and the Good Society
+Levine - Half Slave, Half Free: The Roots of the Civil War
+Mattick - Business as Usual: The Economic Crisis and the Failure of Capitalism
+McPherson - Battle Cry of Freedom: The Civil War Era
+Posner - A Failure of Capitalism: The Crisis of '08 and the Descent into Depression
+Pynchon - The Crying of Lot 49
+Sanders and Gutman - Outsider in the White House
+Shiller - Finance and the Good Society
+Simpson - You Don't Know JS: Scope & Closures
 Schumpeter - Capitalism, Socialism, and Democracy
-Snyder - Black Earth
-Steedman - Value Controversy
-Streeck - Buying Time
-Varoufakis - The Global Minotaur
-Virno - A Grammar of the Multitude
+Snyder - Black Earth: The Holocaust as History and Warning
+Srnicek and Williams - Inventing the Future: Postcapitalism and a World Without Work
+Steedman - The Value Controversy
+Streeck - Buying Time: The Delayed Crisis of Democratic Capitalism
+Tomsic = The Capitalist Unconscious: Marx and Lacan
+Varoufakis - The Global Minotaur: America, Europe and the Future of the Global Economy
+Virno - A Grammar of the Multitude: For an Analysis of Contemporary Forms of Life 
+Wolin - Heidegger's Children: Hannah Arendt, Karl Löwith, Hans Jonas, and Herbert Marcuse
+Zakas - The Principles of Object-Oriented JavaScript
 Zizek - The Year of Dreaming Dangerously
