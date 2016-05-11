@@ -26,6 +26,7 @@ Michael Heinrich - An Introduction to the Three Volumes of Karl Marx's Capital |
 Thomas Frank - Listen, Liberal: or, Whatever Happened to the Party of the People? | Metropolitan Books | 2016
 Charles Wheelan - Naked Money: A Revealing Look at What It Is and Why It Matters | W.W. Norton & Company | 2016
 Carsten Strathausen, ed - A Leftist Ontology: Beyond Relativism and Identity Politics | University of Minnesota Press | 2009
+Thoedor Adorno - Minima Moralia: Reflections from Damaged Life | Verso | 2006 (1951)
 
 Anthony Lewis - Rails Crash Course
 Bigg, Katz, Klabnik, Skinner - Rails 4 in Action
