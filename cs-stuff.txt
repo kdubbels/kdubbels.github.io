@@ -1,0 +1,25 @@
+June 18, 2016:
+
+Computer Science 186 - 2015-02-17
+Computer Science 186 - 2015-02-19
+Computer Science 186 - 2015-02-24
+
+Lecture 1A | MIT 6.001 Structure and Interpretation, 1986
+https://www.youtube.com/watch?v=2Op3QLzMgSY&list=PLE18841CABEA24090
+
+
+June 19, 2016:
+
+Lecture 1B | MIT 6.001 Structure and Interpretation, 1986
+https://www.youtube.com/watch?v=dlbMuv-jix8
+
+Lecture 2A | MIT 6.001 Structure and Interpretation, 1986
+https://www.youtube.com/watch?v=erHp3r6PbJk
+
+June 23, 2016:
+
+Computer Science 186 - 2015-02-26
+https://www.youtube.com/watch?v=xN-W4LndKBI&list=PL-XXv-cvA_iBVK2QzAV-R7NMA1ZkaiR2y&index=12
+
+Computer Science 61B - 2014-02-10: Stack frames
+https://www.youtube.com/watch?v=9utY93x45b0&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=7
