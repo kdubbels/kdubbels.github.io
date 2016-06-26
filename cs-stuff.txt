@@ -21,5 +21,6 @@ June 23, 2016:
 Computer Science 186 - 2015-02-26
 https://www.youtube.com/watch?v=xN-W4LndKBI&list=PL-XXv-cvA_iBVK2QzAV-R7NMA1ZkaiR2y&index=12
 
+June 24, 2016:
 Computer Science 61B - 2014-02-10: Stack frames
 https://www.youtube.com/watch?v=9utY93x45b0&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=7
