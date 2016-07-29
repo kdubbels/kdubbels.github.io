@@ -61,3 +61,10 @@ Lec 23 | MIT 6.00SC Introduction to Computer Science and Programming, Spring 201
 Lec 24 | MIT 6.00SC Introduction to Computer Science and Programming, Spring 2011
 Lec 25 | MIT 6.00SC Introduction to Computer Science and Programming, Spring 2011
 Lec 26 | MIT 6.00SC Introduction to Computer Science and Programming, Spring 2011
+
+July 28, 2016:
+Lecture 1 | Programming Paradigms (Stanford)
+https://www.youtube.com/watch?v=Ps8jOj7diA0&list=PL9D558D49CA734A02
+
+Lecture 2 | Programming Paradigms (Stanford)
+https://www.youtube.com/watch?v=jTSvthW34GU&index=2&list=PL9D558D49CA734A02
