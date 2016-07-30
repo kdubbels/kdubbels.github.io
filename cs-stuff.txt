@@ -68,3 +68,7 @@ https://www.youtube.com/watch?v=Ps8jOj7diA0&list=PL9D558D49CA734A02
 
 Lecture 2 | Programming Paradigms (Stanford)
 https://www.youtube.com/watch?v=jTSvthW34GU&index=2&list=PL9D558D49CA734A02
+
+July 29, 2016:
+Lec 2 | MIT 6.042J Mathematics for Computer Science, Fall 2010
+https://www.youtube.com/watch?v=z8HKWUWS-lA&list=PL3o9D4Dl2FJ8zkoLxaO4aKlq2JsKsz365&index=2
