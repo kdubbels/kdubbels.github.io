@@ -1,0 +1,1 @@
+How do you get "not a number" to be a number? Far from being an arcane discussion at home in the work of Hegel or Heidegger, this is a real-live source of hours of debugging fun in JavaScript!
