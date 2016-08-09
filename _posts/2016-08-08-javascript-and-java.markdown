@@ -10,6 +10,8 @@ JavaScript, of course, began life as Brendan Eich's "Scheme for the web browser"
 
 Java's syntactic similarities to JavaScript obscure their vast conceptual differences - it is easy to assume, for instance that *this* works identically in both languages. Even apparently identical expressions between the two languages - for instance, Math.random() - are not nearly so similar as they appear, even if they are more or less equivalent for the purposes of day-to-day programming.
 
-What I want to do in this post, then, is to highlight two different ways to implement a Set data structure, and hopefully show how the two languages differ on a deep conceptual level, and also how the syntactic similarities can obscure these deep differences.
+Of course, misconceptions about the relationship between Java and JavaScript are old hat. So old, in fact, they may very well appear to be settled questions - everyone knows they are unrelated. Perhaps one signal here is that between the first and second editions of John Resig's opus "Secrets of the JavaScript Ninja", Resig drops a section explaining how the two languages are unrelated to each other. But even armed with this knowledge - that the two languages share no common source, were developed completely independently - is insufficient on its own.
 
-The first implementation will be something like a Java implementation of a Set. The second implementation will utilize JavaScript's more singular features (I am tempted here to say "functionality").
+Now, all that throat clearing aside, some code!
+
+// Stuff about `this` in Java vs. `this` in JavaScript
