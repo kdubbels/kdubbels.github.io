@@ -15,3 +15,7 @@ Of course, misconceptions about the relationship between Java and JavaScript are
 Now, all that throat clearing aside, some code!
 
 // Stuff about `this` in Java vs. `this` in JavaScript
+
+"The name this is a keyword that refers to the object we are creating. You can use this the same way you use the name of any other object." Think Java, p147
+
+
