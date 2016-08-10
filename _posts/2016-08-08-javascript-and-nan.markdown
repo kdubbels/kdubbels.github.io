@@ -6,6 +6,8 @@ My dataset consisted of an array of objects. The specifics here don't really mat
 
 const array = [
   {foo:1, bar:1, baz:1},
-  {foo:NaN, bar:2, baz:3},
-  {foo:1, bar:1, baz:1}
+  {foo:NA, bar:2, baz:3},
+  {foo:1, bar:1, baz:2}
 ];
+
+For the purpose of the visualization I was building, I needed to find values in the array by their exact values. 
