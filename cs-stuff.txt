@@ -21,13 +21,10 @@ June 23, 2016:
 Computer Science 186 - 2015-02-26
 https://www.youtube.com/watch?v=xN-W4LndKBI&list=PL-XXv-cvA_iBVK2QzAV-R7NMA1ZkaiR2y&index=12
 
-<<<<<<< HEAD
 June 24, 2016:
 Computer Science 61B - 2014-02-10: Stack frames
 https://www.youtube.com/watch?v=9utY93x45b0&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=7
 
-=======
->>>>>>> d6cd37fee3a440087556efcfc8bab1db1b6de295
 June 26, 2016:
 
 Lecture 2B | MIT 6.001 Structure and Interpretation, 1986
@@ -79,3 +76,14 @@ https://www.youtube.com/watch?v=jTSvthW34GU&index=2&list=PL9D558D49CA734A02
 July 29, 2016:
 Lec 2 | MIT 6.042J Mathematics for Computer Science, Fall 2010
 https://www.youtube.com/watch?v=z8HKWUWS-lA&list=PL3o9D4Dl2FJ8zkoLxaO4aKlq2JsKsz365&index=2
+
+October 16, 2016:
+Computer Science 61A - 2015-03-30
+Computer Science 61A - 2015-04-01
+
+October 17, 2016:
+Computer Science 61A - 2015-04-03
+
+October 18, 2016:
+Computer Science 61A - 2015-04-06
+https://www.youtube.com/watch?v=ueC6n6DuOfI&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=27
