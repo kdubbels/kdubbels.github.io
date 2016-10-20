@@ -87,3 +87,7 @@ Computer Science 61A - 2015-04-03
 October 18, 2016:
 Computer Science 61A - 2015-04-06
 https://www.youtube.com/watch?v=ueC6n6DuOfI&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=27
+
+October 19, 2016:
+CSE 340 F16: 8-22-16 "Programming Languages Pt 2. and Essential Programming Skills"
+https://www.youtube.com/watch?v=rillxwLvpJo&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=2
