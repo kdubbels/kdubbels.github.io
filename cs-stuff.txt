@@ -98,3 +98,10 @@ https://www.youtube.com/watch?v=SGrNQlldW_s&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQ
 October 21, 2016:
 CSE 340 F16: 8-24-16 "Lexical Analysis Pt. 1"
 https://www.youtube.com/watch?v=DuChiu3KE3k&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=3
+
+October 22, 2016:
+CSE 340 F16: 8-26-16 "Lexical Analysis Pt. 2"
+https://www.youtube.com/watch?v=ARdbU8KLf40&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=4
+
+CSE 340 F16: 8-29-16 "Lexical Analysis Pt. 3"
+https://www.youtube.com/watch?v=eCcsXHdmP8g&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=5
