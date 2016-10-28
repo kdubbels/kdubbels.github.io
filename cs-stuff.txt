@@ -93,7 +93,7 @@ CSE 340 F16: 8-22-16 "Programming Languages Pt 2. and Essential Programming Skil
 https://www.youtube.com/watch?v=rillxwLvpJo&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=2
 
 Computer Science 61A - 2015-04-08
-https://www.youtube.com/watch?v=SGrNQlldW_s&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=
+https://www.youtube.com/watch?v=SGrNQlldW_s&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=28
 
 October 21, 2016:
 CSE 340 F16: 8-24-16 "Lexical Analysis Pt. 1"
@@ -105,3 +105,18 @@ https://www.youtube.com/watch?v=ARdbU8KLf40&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbg
 
 CSE 340 F16: 8-29-16 "Lexical Analysis Pt. 3"
 https://www.youtube.com/watch?v=eCcsXHdmP8g&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=5
+
+October 23, 2016:
+CSE 340 F16: 8-31-16 "Lexical Analysis Pt. 4"
+https://www.youtube.com/watch?v=Fn_C-CPAco0&t=12s
+
+CSE 340 F16: 9-2-16 "Syntax Analysis Pt. 1"
+https://www.youtube.com/watch?v=M2i1xt1qJvU&index=7&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
+
+October 24, 2016:
+CSE 340 F16: 9-7-16 "Syntax Analysis Pt. 2"
+https://www.youtube.com/watch?v=jXYcE9e41oo&index=8&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
+
+October 25, 2016:
+CSE 340 F16: 9-9-16 "Syntax Analysis Pt. 3"
+https://www.youtube.com/watch?v=c-oqS5w94Kk&index=9&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
