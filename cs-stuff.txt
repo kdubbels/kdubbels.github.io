@@ -120,3 +120,7 @@ https://www.youtube.com/watch?v=jXYcE9e41oo&index=8&list=PLK06XT3hFPzj4H_-sK-_5r
 October 25, 2016:
 CSE 340 F16: 9-9-16 "Syntax Analysis Pt. 3"
 https://www.youtube.com/watch?v=c-oqS5w94Kk&index=9&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
+
+October 28, 2016:
+CSE 340 F16: 9-12-16 "Syntax Analysis Pt. 4"
+https://www.youtube.com/watch?v=eTjv1FFTDtw&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=10
