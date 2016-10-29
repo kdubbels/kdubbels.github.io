@@ -124,3 +124,10 @@ https://www.youtube.com/watch?v=c-oqS5w94Kk&index=9&list=PLK06XT3hFPzj4H_-sK-_5r
 October 28, 2016:
 CSE 340 F16: 9-12-16 "Syntax Analysis Pt. 4"
 https://www.youtube.com/watch?v=eTjv1FFTDtw&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=10
+
+October 29, 2016:
+Computer Science 61A - 2015-04-10
+https://www.youtube.com/watch?v=TtdeWGlpf6A&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=29
+
+CSE 340 F16: 9-14-16 "Syntax Analysis Pt. 5"
+https://www.youtube.com/watch?v=RzAqAcQ-gxI&index=11&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
