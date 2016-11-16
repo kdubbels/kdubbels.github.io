@@ -239,3 +239,18 @@ https://www.youtube.com/watch?v=ctV19g2vKwE&index=11&list=PL6879A8466C44A5D5
 
 Computer Science 164 - Lecture 2
 https://www.youtube.com/watch?v=F908k-sUtQk&index=2&list=PL7A7B0FAED3635BAF
+
+CS 61A Lecture 15: Generic Operators I
+https://www.youtube.com/watch?v=4Ak20Lzduvo&list=PL6879A8466C44A5D5&index=13
+
+CS 61A Lecture 16: Generic Operators II
+https://www.youtube.com/watch?v=wCWeqK7T6VE&index=14&list=PL6879A8466C44A5D5
+
+Computer Science 169 - 2015-02-05
+https://www.youtube.com/watch?v=GsNAuTvLO8E&index=6&list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF
+
+CS 61A Lecture 17: Object-Oriented Programming I
+https://www.youtube.com/watch?v=qbUJXsKAtU0&list=PL6879A8466C44A5D5&index=15
+
+CS 61A Lecture 18: Object-Oriented Programming II
+https://www.youtube.com/watch?v=V9xm8N_DEtU&list=PL6879A8466C44A5D5&index=16
