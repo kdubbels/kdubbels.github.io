@@ -81,12 +81,15 @@ October 16, 2016:
 Computer Science 61A - 2015-03-30
 Computer Science 61A - 2015-04-01
 
+
 October 17, 2016:
 Computer Science 61A - 2015-04-03
+
 
 October 18, 2016:
 Computer Science 61A - 2015-04-06
 https://www.youtube.com/watch?v=ueC6n6DuOfI&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=27
+
 
 October 19, 2016:
 CSE 340 F16: 8-22-16 "Programming Languages Pt 2. and Essential Programming Skills"
@@ -95,9 +98,11 @@ https://www.youtube.com/watch?v=rillxwLvpJo&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbg
 Computer Science 61A - 2015-04-08
 https://www.youtube.com/watch?v=SGrNQlldW_s&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=28
 
+
 October 21, 2016:
 CSE 340 F16: 8-24-16 "Lexical Analysis Pt. 1"
 https://www.youtube.com/watch?v=DuChiu3KE3k&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=3
+
 
 October 22, 2016:
 CSE 340 F16: 8-26-16 "Lexical Analysis Pt. 2"
@@ -106,6 +111,7 @@ https://www.youtube.com/watch?v=ARdbU8KLf40&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbg
 CSE 340 F16: 8-29-16 "Lexical Analysis Pt. 3"
 https://www.youtube.com/watch?v=eCcsXHdmP8g&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=5
 
+
 October 23, 2016:
 CSE 340 F16: 8-31-16 "Lexical Analysis Pt. 4"
 https://www.youtube.com/watch?v=Fn_C-CPAco0&t=12s
@@ -113,17 +119,21 @@ https://www.youtube.com/watch?v=Fn_C-CPAco0&t=12s
 CSE 340 F16: 9-2-16 "Syntax Analysis Pt. 1"
 https://www.youtube.com/watch?v=M2i1xt1qJvU&index=7&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
 
+
 October 24, 2016:
 CSE 340 F16: 9-7-16 "Syntax Analysis Pt. 2"
 https://www.youtube.com/watch?v=jXYcE9e41oo&index=8&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
+
 
 October 25, 2016:
 CSE 340 F16: 9-9-16 "Syntax Analysis Pt. 3"
 https://www.youtube.com/watch?v=c-oqS5w94Kk&index=9&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
 
+
 October 28, 2016:
 CSE 340 F16: 9-12-16 "Syntax Analysis Pt. 4"
 https://www.youtube.com/watch?v=eTjv1FFTDtw&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe&index=10
+
 
 October 29, 2016:
 Computer Science 61A - 2015-04-10
@@ -132,21 +142,24 @@ https://www.youtube.com/watch?v=TtdeWGlpf6A&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQ
 CSE 340 F16: 9-14-16 "Syntax Analysis Pt. 5"
 https://www.youtube.com/watch?v=RzAqAcQ-gxI&index=11&list=PLK06XT3hFPzj4H_-sK-_5rfi4tpCbgdYe
 
+
 October 31, 2016:
 Computer Science 61C - 2015-01-22
 https://www.youtube.com/watch?v=mZgoX-yLqxM
+
 
 November 1 2016:
 Computer Science 61A - 2015-04-13
 https://www.youtube.com/watch?v=hZfKpqRSSYA&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=30
 
-November 2, 2016:
 
+November 2, 2016:
 Computer Science 61A - 2015-04-15
 https://www.youtube.com/watch?v=Fu4H5nYH8Wk&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=31
 
 Computer Science 61A - 2015-04-17
 https://www.youtube.com/watch?v=8r49PiczG1o&index=32&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J
+
 
 November 3, 2016:
 Computer Science C8 - 2016-01-25
@@ -157,6 +170,7 @@ https://www.youtube.com/watch?v=534FbX2XLR0
 
 Computer Science 61C - 2015-01-27
 https://www.youtube.com/watch?v=DJa1tBk6gPM
+
 
 November 4, 2016:
 Computer Science 61A - 2015-04-20
@@ -171,6 +185,7 @@ https://www.youtube.com/watch?v=IlAYbVNHIGY&index=36&list=PL-XXv-cvA_iBM29DgZsGa
 Computer Science 61A - 2015-04-29
 https://www.youtube.com/watch?v=hC9lt3PFa4M&list=PL-XXv-cvA_iBM29DgZsGaQihJp8lLQn3J&index=37&spfreload=1
 
+
 November 7, 2016:
 Computer Science C8 - 2016-01-29
 https://www.youtube.com/watch?v=aAJKjqnn-00
@@ -183,6 +198,7 @@ https://www.youtube.com/watch?v=zmYqShvVDh4&list=PL6879A8466C44A5D5&index=1
 
 CS 61A Lecture 2: Functional Programming II
 https://www.youtube.com/watch?v=HFxGVf3KAto&list=PL6879A8466C44A5D5&index=2
+
 
 November 8, 2016:
 Computer Science 61C - 2015-01-29
@@ -197,6 +213,7 @@ https://www.youtube.com/watch?v=ZjjpW2CxRoc&index=4&list=PL6879A8466C44A5D5
 CS 61A Lecture 7: Recursion and Iteration II
 https://www.youtube.com/watch?v=D1VagzsdEhA&list=PL6879A8466C44A5D5&index=5
 
+
 November 9, 2016:
 CS 61A Lecture 8: UI Recursion and Iteration III
 https://www.youtube.com/watch?v=kFvIgiUTJAc&index=6&list=PL6879A8466C44A5D5
@@ -206,6 +223,7 @@ https://www.youtube.com/watch?v=QV0A_hFPCnw&list=PL6879A8466C44A5D5&index=7
 
 Computer Science 169 - 2015-01-20
 https://www.youtube.com/watch?v=SBfoRSjBtcc&index=1&list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF
+
 
 November 10, 2016:
 Computer Science 169 - 2015-01-22
@@ -217,9 +235,11 @@ https://www.youtube.com/watch?v=toxVoAmR4Rg&index=3&list=PL-XXv-cvA_iCfQHHS7rxlf
 CS 61A Lecture 10: Data Abstraction, Sequences Calculator II
 https://www.youtube.com/watch?v=XGs2WGP8Vwg&list=PL6879A8466C44A5D5&index=8
 
+
 November 12, 2016:
 Computer Science 169 - 2015-01-29
 https://www.youtube.com/watch?v=luaXAONcaww&index=4&list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF
+
 
 November 14, 2016:
 Computer Science 164 - Lecture 1
@@ -237,6 +257,8 @@ https://www.youtube.com/watch?v=AVV26OblYLw&index=5&list=PL-XXv-cvA_iCfQHHS7rxlf
 CS 61A Lecture 13: Hierarchical Data II
 https://www.youtube.com/watch?v=ctV19g2vKwE&index=11&list=PL6879A8466C44A5D5
 
+
+November 15, 2016:
 Computer Science 164 - Lecture 2
 https://www.youtube.com/watch?v=F908k-sUtQk&index=2&list=PL7A7B0FAED3635BAF
 
@@ -254,3 +276,14 @@ https://www.youtube.com/watch?v=qbUJXsKAtU0&list=PL6879A8466C44A5D5&index=15
 
 CS 61A Lecture 18: Object-Oriented Programming II
 https://www.youtube.com/watch?v=V9xm8N_DEtU&list=PL6879A8466C44A5D5&index=16
+
+
+November 16, 2016:
+CS 61A Lecture 19: Object-Oriented Programming III
+https://www.youtube.com/watch?v=7u3pp7JCAIU&list=PL6879A8466C44A5D5&index=17
+
+CS 61A Lecture 20: Assignment, State, Environments I
+https://www.youtube.com/watch?v=HIJ8ly8HOUQ&index=18&list=PL6879A8466C44A5D5
+
+Computer Science 164 - Lecture 3
+https://www.youtube.com/watch?v=95ZEgLVuovk&index=3&list=PL7A7B0FAED3635BAF
