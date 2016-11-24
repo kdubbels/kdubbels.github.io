@@ -21,10 +21,6 @@ June 23, 2016:
 Computer Science 186 - 2015-02-26
 https://www.youtube.com/watch?v=xN-W4LndKBI&list=PL-XXv-cvA_iBVK2QzAV-R7NMA1ZkaiR2y&index=12
 
-June 24, 2016:
-Computer Science 61B - 2014-02-10: Stack frames
-https://www.youtube.com/watch?v=9utY93x45b0&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=7
-
 June 26, 2016:
 
 Lecture 2B | MIT 6.001 Structure and Interpretation, 1986
@@ -72,10 +68,6 @@ https://www.youtube.com/watch?v=Ps8jOj7diA0&list=PL9D558D49CA734A02
 
 Lecture 2 | Programming Paradigms (Stanford)
 https://www.youtube.com/watch?v=jTSvthW34GU&index=2&list=PL9D558D49CA734A02
-
-July 29, 2016:
-Lec 2 | MIT 6.042J Mathematics for Computer Science, Fall 2010
-https://www.youtube.com/watch?v=z8HKWUWS-lA&list=PL3o9D4Dl2FJ8zkoLxaO4aKlq2JsKsz365&index=2
 
 October 16, 2016:
 Computer Science 61A - 2015-03-30
@@ -287,3 +279,79 @@ https://www.youtube.com/watch?v=HIJ8ly8HOUQ&index=18&list=PL6879A8466C44A5D5
 
 Computer Science 164 - Lecture 3
 https://www.youtube.com/watch?v=95ZEgLVuovk&index=3&list=PL7A7B0FAED3635BAF
+
+
+November 17, 2016:
+Computer Science 164 - Lecture 4
+https://www.youtube.com/watch?v=tWzVXuI6EvU&index=4&list=PL7A7B0FAED3635BAF
+
+CS 61A Lecture 21: Assignment, State, Environments II
+https://www.youtube.com/watch?v=odn1u4W5w1A&index=19&list=PL6879A8466C44A5D5
+
+CS 61A Lecture 21: Assignment, State, Environments II
+https://www.youtube.com/watch?v=odn1u4W5w1A&index=19&list=PL6879A8466C44A5D5
+
+(skip CS 61A 22)
+
+
+November 18, 2016:
+CS 61A Lecture 23: Mutable Data
+https://www.youtube.com/watch?v=awRMvpjzdTU&list=PL6879A8466C44A5D5&index=20
+
+CS 61A Lecture 24: Vectors I
+https://www.youtube.com/watch?v=Y2Q7F31i85E&list=PL6879A8466C44A5D5&index=21
+
+CS 61A Lecture 25: Vectors II
+https://www.youtube.com/watch?v=jNmWoobN2yU&list=PL6879A8466C44A5D5&index=23
+
+CS 61A Lecture 26: Client Server
+https://www.youtube.com/watch?v=WvFvFeoEzu8&list=PL6879A8466C44A5D5&index=24
+
+CS 61A Lecture 27: Concurrency I
+https://www.youtube.com/watch?v=L2ur8VMmxK8&index=25&list=PL6879A8466C44A5D5
+
+CS 61A Lecture 28: Concurrency II
+https://www.youtube.com/watch?v=bzDlbvrFjc4&index=26&list=PL6879A8466C44A5D5
+
+November 20, 2016:
+CS 61A Lecture 29: Streams
+https://www.youtube.com/watch?v=0HrCURYJTMM&list=PL6879A8466C44A5D5&index=27
+
+CS 61A Lecture 30: Shell Programming I
+https://www.youtube.com/watch?v=vLykGe8OtS4&list=PL6879A8466C44A5D5&index=28
+
+CS 61A Lecture 32: Metacircular Evaluation I
+https://www.youtube.com/watch?v=tH-jxfHyNYY&index=29&list=PL6879A8466C44A5D5
+
+
+November 21, 2016:
+CS 61A Lecture 31: Shell Programming II
+https://www.youtube.com/watch?v=nzUft7-YlA4&list=PL6879A8466C44A5D5&index=30
+
+Computer Science 162 - 2015-01-21
+https://www.youtube.com/watch?v=1IcZB26STUE&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
+
+Computer Science 61C - 2015-02-03
+https://www.youtube.com/watch?v=zUYCZYKaUrk&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_&index=5
+
+Computer Science 61B - 2014-01-27: Defining classes
+https://www.youtube.com/watch?v=Cd2NV1UpaEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=2
+
+
+November 22, 2016:
+CS 61A Lecture 33: Metacircular Evaluation II
+https://www.youtube.com/watch?v=tK0-1w8Jie0&list=PL6879A8466C44A5D5&index=31
+
+
+November 23, 2016:
+Computer Science 169 - 2015-02-10
+https://www.youtube.com/watch?v=plZo_vxGOPw&list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF&index=7
+
+Computer Science 169 - 2015-02-12
+https://www.youtube.com/watch?v=jSqNHT9YfuQ&list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF&index=8
+
+Computer Science 162 - 2015-01-26
+https://www.youtube.com/watch?v=-KWd_eQYLwY&index=2&list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
+
+Lecture 1A | MIT 6.001 Structure and Interpretation, 1986
+https://www.youtube.com/watch?v=2Op3QLzMgSY&index=1&list=PLE18841CABEA24090
