@@ -1,6 +1,6 @@
 # Site settings
 title: Kristofer Dubbels
-email: dubbk381@alumni.newschool.edu
+email: me@kristofer.fail
 description: Moving along.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://kdubbels.github.io/" # the base hostname & protocol for your site
