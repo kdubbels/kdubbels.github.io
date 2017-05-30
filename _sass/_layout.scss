@@ -168,7 +168,7 @@ $brightCoral: #FF6D92;
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: black;
 }
 
 .post-link {
@@ -189,6 +189,7 @@ $brightCoral: #FF6D92;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: black;
 
     @include media-query($on-laptop) {
         font-size: 36px;
