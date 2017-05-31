@@ -5,7 +5,7 @@ date:   2017-05-26 12:31:00
 categories: jekyll update
 ---
 
-Chapter Three. Back on the Chain Gang
+1. Back on the Chain Gang
 
 Everything so far is building toward my own deeper appreciation of the functional paradigm.
 
@@ -36,7 +36,7 @@ This can be refactored using Underscore's method chaining.
 
 Much more terse, and much more readable all at once!
 
-Chapter Four. Chain vs. Pipeline
+2. Chain vs. Pipeline
 
 But is this technique truly "functional"? Let's use another Underscore method, `_.tap()` to see. Tap works by "tapping" into the method chain to perform operations on intermediate results. The tap method accepts a callback function - an "interceptor" - that performs work on the object passed to it.
 
@@ -220,8 +220,8 @@ Without going into the mechanics of the compose function above, let's assume we 
 R.compose(R.contains(3), uniq);
 ```
 
-Now, what is the advantage to R.compose() over _.chain()? Arguably, readability is a factor but - and this is crucial! - for a mind trained to use a method chain over function composition, function composition does not necessarily offer greater readability at all.
+Now, what is the advantage to R.compose() over _.chain()? Arguably, readability is a factor but - and this is crucial! - for a mind trained to use a method chain over function composition, function composition does not necessarily offer greater readability.
 
 Afterword.
 
-I will return to the topic of composition in a future post. For now, the takeaway should be that Underscore isn't functional, that method chaining is an OOP construct, and that composition *may* offer advantages in readability over method chaining.
+I will return to the topic of composition in a future post. For now, the takeaway should be that Underscore isn't "really" functional, that method chaining is an OOP construct, and that composition *may* offer advantages in readability over method chaining.
