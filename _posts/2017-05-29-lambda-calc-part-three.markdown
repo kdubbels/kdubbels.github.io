@@ -44,4 +44,4 @@ Which is, of course:
 
 A name clash arises when a β reduction places an expression with a free variable in the scope of a bound variable with the same name as the free variable. So, α conversion is the process which removes the name clash.
 
-This all may seem a bit abstract for now, so we'll look at a few examples of lambda expressions in the next part. In the final parts, we'll show how lambda calculus is _Turing complete_ by constructing numbers and flow of control.
+This all may seem a bit abstract for now, so we'll look at evaluation strategies of lambda expressions in the next part. In the final parts, we'll show how lambda calculus is _Turing complete_ by constructing numbers and flow of control.
