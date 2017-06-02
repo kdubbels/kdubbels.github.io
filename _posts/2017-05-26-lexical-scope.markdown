@@ -25,6 +25,7 @@ Without running this code, you should be able to readily predict what it will re
 So, let's break down our add function to illustrate how closure works. After all, `add` really contains two functions; let's look at the inner function first. On its own, this inner function
 `y => x + y;`
 will obviously result in an error; x is a free variable. What happens when you surround that inner function with the outer function to get `let add = x => y => x + y;`? This is exactly where closure comes in. The `x` in the inner function will come from the invocation of the surrounding lambda. This is called "lexical scope" (it is distinct from dynamic scope; JavaScript uses both types of scopes in different parts of the language. Using fat arrow syntax, however, a function can _only_ utilize lexical scope.)
+
 ```
 let add = x => y => x + y;
 add(3)(4) // returns 7
@@ -34,11 +35,12 @@ Let's return to lambda calculus notation for a moment, and look at two more expr
 ```
 λx.xyz
 ```
-This expression contains _two_ free variables: `y` and `z`. Only `x` is a parameter in the enclosing λ expression.
+This expression contains _two_ free variables: `y` and `z`. Only `x` is a parameter in the enclosing λ expression. Let's try another:
 
 ```
 λxy.xy
 ```
+
 This should be intuitive by now: all variables are bound.
 
 It is important to emphasize that a lambda expression is only valid if all variables are bound.

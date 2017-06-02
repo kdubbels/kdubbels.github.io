@@ -40,8 +40,6 @@ Which is, of course:
 7
 ```
 
-:tada: :tada: :tada:
-
 A name clash (sometimes also referred to as "the name capture problem") arises when a β reduction places an expression with a free variable in the scope of a bound variable with the same name as the free variable. So, α conversion is the process which removes the name clash.
 
 Let's look at a λ expression where α reduction will resolve a name clash:
@@ -59,4 +57,4 @@ The first occurrence of y in the expression above is bound, while the second - t
 ```
 
 
-This all may seem a bit abstract for now, so we'll look at evaluation strategies of λ expressions in the next part. In the final parts, we'll show how λ calculus is _Turing complete_ by constructing numbers and flow of control.
+This all may seem a bit abstract for now, so we'll look at the two different evaluation strategies of λ expressions in the next part. In the final parts, we'll show how λ calculus is _Turing complete_ by constructing numbers and flow of control.

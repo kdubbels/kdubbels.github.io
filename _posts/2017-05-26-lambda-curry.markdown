@@ -27,6 +27,8 @@ Using lambda notation, we can write a curried addition function thus:
 λx(λy(x + y))
 ```
 
+Simply put, the addition function is a function on _one_ variable: `x`. This function, when given `x` returns the function that adds `x` to `y`.
+
 Now, let's translate that into ES6:
 
 ```
