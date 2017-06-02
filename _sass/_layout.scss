@@ -67,6 +67,7 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     font-family: Megrim, cursive;
+    height: 100px;
 }
 
 .footer-heading {
@@ -136,6 +137,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    min-height: calc(100vh - 200px);
 
 
 $gold: #FFB900;
