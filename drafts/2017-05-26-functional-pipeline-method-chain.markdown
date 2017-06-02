@@ -175,7 +175,7 @@ Which we could then translate into JavaScript as:
 
 The `add()` function also illustrates a principle known as "currying" (the Haskell language is named after a fellow by the name of "Haskell Curry" fwiw). In currying, a multivariable function is converted into a sequence of functions that accept a single argument.
 
-Currying forms the basis for creating a functional pipeline.
+Currying forms the basis for creating a _functional pipeline_.
 
 Lets look at one canonical implementation of currying in JavaScript, from the now defunct Prototype library:
 ```
@@ -192,6 +192,8 @@ Function.prototype.curry = function() {
 The crucial part is that rather than returning an *object*, while currying returns a *function*.
 
 The curry method, then, works by creating a closure that holds the original function and the original arguments that will be curried. As mentioned above, this method then returns a function that returns the result of calling the *original function*, passing it the arguments from the original invocation of the curry method itself.
+
+(Now might be a good time to point out that while Underscore doesn't feature a built-in curry method, Lodash does: https://lodash.com/docs/4.17.4#curry)
 
 Now, the key difference between Underscore's method chain and a truly functional "pipeline" is *composition*. The concept of composition is more general than functional programming; the idea of composition is to be able to "compose" smaller chunk programs into one larger chunk (which in turn may be composed with another big chunk and so on).
 
@@ -220,7 +222,7 @@ Without going into the mechanics of the compose function above, let's assume we 
 R.compose(R.contains(3), uniq);
 ```
 
-Now, what is the advantage to R.compose() over _.chain()? Arguably, readability is a factor but - and this is crucial! - for a mind trained to use a method chain over function composition, function composition does not necessarily offer greater readability.
+Now, what is the advantage to R.compose() over _.chain()? Arguably, readability is a factor but - and this is crucial! - for a mind trained to use a method chain over function composition, function composition may not necessarily offer greater readability.
 
 Afterword.
 
