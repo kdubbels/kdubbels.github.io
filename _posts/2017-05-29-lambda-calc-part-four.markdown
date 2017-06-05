@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Lambda Calculus Part 4: Evaluation Strategies"
-date:   2017-05-26 12:31:00
+date:   2017-05-25 12:31:00
 categories: jekyll update
 ---
 
 In the previous part of this series, we discussed beta reduction. We also hand-waved just _how_ beta reduction is carried out. That is to say, there is more than one way to reduce a lambda expression. The way that a beta reduction is actually carried out is called an _evaluation strategy_. We'll discuss two evaluation strategies here:
 
-_Applicative Order_: In applicative order, take the innermost expressions that can be reduced, and evaluate them from right to left (_eager_).
+_Applicative Order_: In applicative order, take the innermost expressions that can be reduced, and evaluate them from right to left.
 
-_Normal Order_: In normal order, take the outermost expressions and evaluate them from left to right (_lazy_).
+_Normal Order_: In normal order, take the outermost expressions and evaluate them from left to right.
 
 Applicative order is _eager_, while normal order is _lazy_: in applicative order, all paramaters are evaluated first. In normal order, which is _lazy_, parameters aren't evaluated until it is absolutely necessary. We'll discuss whether or not the two evaluation strategies produce different results after we've examined a few examples.
 
@@ -23,9 +23,9 @@ To evaluation an expression using applicative order, perform the following steps
 
 Let's look at an example (taken from Mark Chu-Carroll's terrific book, _Good Math_):
 
-```
+{% highlight lisp %}
 (λxyz.(x * x) + y) (3 + 2)(10 * 2)(24 / (2 * 3))
-```
+{% endhighlight %}
 
 (This is a slightly different notation than in previous parts, but for our purposes here, `λxyz.` is the same as `λx.λy.λz.`)
 
@@ -33,43 +33,43 @@ We'll start with the _eager_ evaluation strategy. Since we want to evaluate the 
 
 We now have:
 
-```
+{% highlight lisp %}
 (λxyz.(x * x) + y) (3 + 2)(10 * 2)(24 / 6))
-```
+{% endhighlight %}
 
 Having taken care of the inmost sub-expression, we now move right to left, giving us:
 
-```
+{% highlight lisp %}
 (λxyz.(x * x) + y) 5 20 4)
-```
+{% endhighlight %}
 
 We can now evaluate our outermost λ:
-```
+{% highlight lisp %}
 (λxyz.(x * x) + 20) 5 4)
-```
+{% endhighlight %}
 
 The final reductions should be obvious by now:
-```
+{% highlight lisp %}
 (λxyz.(5 * 5) + 20) 4)
 (λxyz.(25 + 20) 4)
 (λz.(45) 4)
 45
-```
+{% endhighlight %}
 
 Now, let's try lazy evaluation on the same expression:
 
-```
+{% highlight lisp %}
 (λxyz.(x * x) + y) (3 + 2)(10 * 2)(24 / (2 * 3))
-```
+{% endhighlight %}
 
 Since we _start_ with outermost beta reduction, we immediately get:
 
-```
+{% highlight lisp %}
 (λz.((3 + 2) * (3 + 2) + (10 * 2) (24 / (2 * 3))
 (λz.((5 * 5) + 20) (24 / (2 * 3))
 (λz.(25 + 20) (24 / (2 * 3))
 45
-```
+{% endhighlight %}
 
 (The "steps" shown above are merely to make the math explicit - there is really only one beta reduction occuring above. The evaluation of the mathematical expressions are not steps of beta reduction per se.)
 
@@ -77,31 +77,31 @@ What is crucial to note about lazy evaluation is that one of the sub-expressions
 
 Let's look at our original example from the very beginning:
 
-```
+{% highlight lisp %}
 (λx(λy(x + y)) 3 4)
-```
+{% endhighlight %}
 
-Using applicative order we get the following reduction steps:
+Using eager evaluation we get the following reduction steps:
 
-```
-(λx(λy(x + y)) 3 4)
-3+4
-7
-```
-
-And with normal order:
-
-```
+{% highlight lisp %}
 (λx(λy(x + y)) 3 4)
 3+4
 7
-```
+{% endhighlight %}
+
+And with lazy evaluation:
+
+{% highlight lisp %}
+(λx(λy(x + y)) 3 4)
+3+4
+7
+{% endhighlight %}
 
 
-Now, how do the two evaluation strategies _really_ differ? Do they always produce the same results? I can't delay the big reveal any longer... we have been effectively conflating two distinct concepts: _evaluation_ strategy and _reduction_ strategy. It will take us too far afield to discuss the subtleties of the distinction here, but it is worth noting that although related, they are not identical. Indeed, the _chef-d'œuvre_ of functional programming, _The Structure and Interpretation of Computer Programs_ doesn't distinguish these two concepts. Briefy, an evaluation strategy determines when to evaluate the arguments of a function call and what kind of value to pass to this function, whereas a reduction strategy refers to the process by which a more complex expression is reduced to a simpler expression. Confused? Until relatively recently, so were computer scientists. Strictly speaking, the examples above map more closely to the distinction between eager evaluation and lazy evaluation. Indeed, in at least one important functional programming text book (Michaelson's _An Introduction to Functional Programming Through Lambda Calculus_), lazy evaluation is descibed as combining "the advantages of normal order and applicative order evaluation" (p. 199).
+Now, how do the two evaluation strategies _really_ differ? Do they always produce the same results? I can't delay the big reveal any longer... we have been effectively conflating two distinct concepts: _evaluation_ strategy and _reduction_ strategy. It will take us too far afield to discuss the subtleties of the distinction here, but it is worth noting that although related, they are not identical. Indeed, the _chef-d'œuvre_ of functional programming, _The Structure and Interpretation of Computer Programs_ doesn't distinguish these two concepts. Briefy, an evaluation strategy determines when to evaluate the arguments of a function call and what kind of value to pass to this function, whereas a reduction strategy refers to the process by which a more complex expression is reduced to a simpler expression. Confused? Until relatively recently, so were computer scientists. Strictly speaking, the examples above map more closely to the distinction between eager evaluation and lazy evaluation. Indeed, in at least one significant functional programming text book (Michaelson's _An Introduction to Functional Programming Through Lambda Calculus_), lazy evaluation is descibed as combining "the advantages of normal order and applicative order evaluation" (p. 199).
 
 So, since we want to keep things relatively simple, we'll gloss over the arcana and simply offer a handful of intuitions about these strategies. One obvious advantage of lazy evaluation is that they can still perform useful computation even if evaluation of some of their arguments would produce errors. We can see this using one of the examples above, ie, `(λxyz.(x * x) + y) (3 + 2)(10 * 2)(1 / 0))`. Even though dividing by zero isn't allowed, it will never be evaluated in a program using lazy evaluation. That said, for reasons we won't explore here, lazy evaluation is relatively difficult to combine with one noteworthy feature of imperative languages, exception handling. 
 
 Another advantage of lazy evalution is the ability to create infinite data structures; this is one of the most distinctive features of Haskell, which is perhaps the most prominent language to use lazy evaluation.
 
-But enough of all these technicalities! Let's make some numbers.
+The purpose here isn't to give an extended, sophisticated explanation on these concepts, but to give an idea of the concept of evaluation strategies and their practical significance. On that anti-climactic note, let's get back to the fun stuff. Let's make some numbers!
