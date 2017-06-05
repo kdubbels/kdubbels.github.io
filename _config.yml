@@ -10,8 +10,8 @@ github_username:  kdubbels
 # Build settings
 markdown: kramdown
 
-sass:
-    sass_dir: _sass
+# sass:
+#     sass_dir: _sass
 
 gems:
   - jemoji
