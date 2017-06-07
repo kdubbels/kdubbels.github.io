@@ -58,4 +58,4 @@ In Haskell, by contrast, rather than mutating an existing data structure, you'd 
 
 This style reduces uncertainty, and makes it easier to reason about state: since existing data structures don't change over the course of a program. The inability to mutate data structures makes it much easier to reason about Haskell code.
 
-Now that we've talked about data structures in Haskell - and even seen some in action - let's see how they actually _work_.
+We'll discuss the primary data structure in Haskell - the list - later in this series. In the next part, however, we'll see how one important ES6 innovation makes JavaScript more like Haskell. And this is a good thing.
