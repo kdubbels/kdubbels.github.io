@@ -57,4 +57,3 @@ Prelude> (\x -> x) "foo"
 {% endhighlight %}
 
 The `\` is supposed to be visually similar to λ ("lambda").
-
