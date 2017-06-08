@@ -20,5 +20,6 @@ I will bring a number of skills and qualifications to this position. In November
 Denver voted overwhelmingly for Bernie Sanders in 2016 and yet all the socialist organizations in town are exceptionally small. There is clearly an appetite for a more radical approach to politics that other socialist groups have failed to engage with. Other socialist groups in Denver have failed to grow because they have alienated potential allies through elitism, hostility to newcomers, and general unwillingness to meet people where they are. I believe that DSA can fill this niche and that I am the most qualified person to make it happen. Thank you.
 
 In solidarity,
+
 Kristofer Dubbels
 
