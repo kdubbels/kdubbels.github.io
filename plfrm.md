@@ -3,8 +3,6 @@ layout: page
 permalink: /platform/
 ---
 
-# My Platform
-
 Comradely greetings,
 
 My name is Kristofer Dubbels and I am running for the position of Chair. 
