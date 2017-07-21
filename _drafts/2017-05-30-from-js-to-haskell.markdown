@@ -5,6 +5,8 @@ date:   2017-05-30 11:31:00
 categories: jekyll update
 ---
 
+"Most programming languages today are imperative, but, as we mentioned earlier, it is not necessary for a programming language to describe computation in this way. Indeed, the requirement that computation be described as a sequence of instructions, each operating on a single piece of data, is sometimes referred to as the von Neumann bottleneck. This bottleneck restricts the ability of a language to provide either parallel computation, that is, computation that can be applied to many different pieces of data simultaneously, or nondeterministic computation, computation that does not depend on order. Thus, it is reasonable to ask if there are ways to describe computation that are less dependent on the von Neumann model of a computer. Indeed there are, and these will be described shortly. Imperative programming languages actually represent only one paradigm, or pattern, for programming languages." Louden, p. 15
+
 This article presumes you are a JavaScript developer (or, at least, a developer with a fair amount of JavaScript experience). It also assumes you are curious about Haskell, but are confused about the how and why of Haskell. Haskell has been described by Perl creator and all-around hacker legend Larry Wall as "sort of a language by geniuses, for geniuses." 
 
 I tried several times to get started on Haskell, but it was always just a little too weird, a little too alien. Syntactically, it just doesn't look like other languages I've used. When I first approached it, it challenged my understanding of just what a function is. Even deeper, it challenged my understanding of what data itself is.
