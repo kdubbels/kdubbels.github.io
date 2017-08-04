@@ -7,29 +7,18 @@ html {
 }
 
 body {
-  background-color: rgb(252, 252, 252);
+//  background-color: rgb(252, 252, 252);
+  -webkit-transition: all 0.5s ease-out; /* Safari */
+    transition: all 0.5s ease-out;
 }
 
 p, ul, li {
-  color: #333;
+//  color: #333;
   font-family: Helevetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
 
-/*
-body {
-  $opacity: 90%;
-  align-items: center;
-  background: linear-gradient(
-                  to top right,
-                  mix($coral, white, $opacity) 10%,
-                  mix($brightCoral, white, $opacity) 65%,
-                  mix($gold, white, $opacity) 125%); 
-  transition: opacity 1s;
-  min-height: calc(100vh - 200px);
-}
-*/
 
 .footer {
 	height: 100px;
@@ -92,4 +81,8 @@ header {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}
+
+circle.theme-select {
+  cursor: pointer;
 }
