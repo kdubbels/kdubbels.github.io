@@ -47,4 +47,4 @@ const themesList = [
 ];
 
 ReactDOM.render(<ColorTransitioner themesList={themesList} />
-, document.getElementById('foo'));
+, document.getElementById('colorPicker'));

@@ -19,6 +19,10 @@ p, ul, li {
   line-height: 1.5;
 }
 
+#page {
+    min-height: calc(100vh - 100px);
+
+}
 
 .footer {
 	height: 100px;
