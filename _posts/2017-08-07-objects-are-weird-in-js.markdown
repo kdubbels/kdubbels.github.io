@@ -5,6 +5,11 @@ date:   2017-08-07 12:31:00
 categories: javascript objects weirdness
 ---
 
+
+>Whereas every instance in a Java program is generated from a class serving as its template, JavaScript instances use existing objects to serve as prototypes for specialized instances."
+
+Michael Fogus, _Functional JavaScript_
+
 ##Primitives
 
 The key distinction within JavaScript is between a true "object" and a simpler "primitive". It is sometimes said that _everything_ in JavaScript is an object. This isn't true, although _nearly_ everything is an object. Where things get confusing is that certain primitives are not subtypes of `Object`. There are six of these primitive types (the ECMASCript specification calls them "language types", a term which I find more confusing than "primitive"):
