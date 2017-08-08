@@ -2,7 +2,6 @@
 layout: post
 title: "Objects are weird in JavaScript"
 date:   2017-08-07 12:31:00
-categories: javascript objects weirdness
 ---
 
 
