@@ -10,7 +10,7 @@ categories: javascript objects weirdness
 
 Michael Fogus, _Functional JavaScript_
 
-##Primitives
+## Primitives
 
 The key distinction within JavaScript is between a true "object" and a simpler "primitive". It is sometimes said that _everything_ in JavaScript is an object. This isn't true, although _nearly_ everything is an object. Where things get confusing is that certain primitives are not subtypes of `Object`. There are six of these primitive types (the ECMASCript specification calls them "language types", a term which I find more confusing than "primitive"):
 
@@ -89,7 +89,7 @@ Note that we can't simply call a method on a `number` primitive like we can with
 
 {% endhighlight %}
 
-##Constructors in Action
+## Constructors in Action
 
 Now, where things get really, _really_ confusing is that `Array`, `Object`, `Function`, and `RegExp` are all _always_ objects. But let's back up a second and compare strings in JavaScript with the way strings are constructed in C. 
 
@@ -121,7 +121,7 @@ str.bar // "bar"
 
 {% endhighlight %}
 
-##Objects and Arrays
+## Objects and Arrays
 
 Now, contrast this with `Array`, `Object`, `Function`, and `RegExp`. Since they are _always_ objects, you will always be able to set properties on them, even when you use the literal form rather than a constructor (your head should already be spinning btw; your brain should start melting soon):
 
@@ -161,7 +161,7 @@ regex.foo // "foo"
 
 {% endhighlight %}
 
-##In Practice
+## In Practice
 
 In practice, it is advisible to create `number`s, `boolean`s `string`s, `array`s, and `object`s using literals. Indeed, the ability to create array and object literals is a unique feature of JavaScript. In general, use the built-in constructors for everything else, with one notable exception: functions. Functions play a very special role in JavaScript, and mastery of functions is most of the work of mastering JavaScript itself.
 
