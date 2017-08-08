@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Objects are weird in JavaScript"
-date:   2017-08-07 12:31:00
+date:   2017-08-08 12:31:00
 ---
 
 
->Whereas every instance in a Java program is generated from a class serving as its template, JavaScript instances use existing objects to serve as prototypes for specialized instances."
+>"Whereas every instance in a Java program is generated from a class serving as its template, JavaScript instances use existing objects to serve as prototypes for specialized instances."
 
 Michael Fogus, _Functional JavaScript_
 
