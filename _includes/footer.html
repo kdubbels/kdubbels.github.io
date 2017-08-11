@@ -8,37 +8,16 @@
 <script>
 
 var fixedHeader = null
-/*
-d3.select(window).on('scroll', function(){
-
-  var fixedHeader1 = pageYOffset > 0 && pageYOffset < 5000; 
-  var fixedHeader2 = pageYOffset > 5000;
-
-  console.warn(fixedHeader1);
-
-  if (fixedHeader != fixedHeader1){
-    fixedHeader = fixedHeader1;
-    
-    d3.select('#full-header').classed('stuck', fixedHeader).style('opacity', 1);
-    d3.select('#full-header-space').classed('stuck', fixedHeader).style('opacity', 1);
-  } else if (fixedHeader == fixedHeader2) {
-    fixedHeader = fixedHeader1;
-
-    d3.select('#full-header').style('opacity', 0);
-    d3.select('#full-header-space').style('opacity', 0);
-  }
-});
-*/
 
 window.onscroll = function() {
 	if (pageYOffset > 150) {
 		document.querySelector('header').style.backgroundColor = localStorage.getItem('color');
 		document.querySelector('header').style.color = localStorage.getItem('backgroundColor');
-		document.getElementById('el').style = "background-color: " + localStorage.getItem('backgroundColor');
+		document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
 	} else if (pageYOffset <= 150) {
 		document.querySelector('header').style.backgroundColor = localStorage.getItem('backgroundColor');
 		document.querySelector('header').style.color = localStorage.getItem('color');
-		document.getElementById('el').style = "background-color: " + localStorage.getItem('color');
+		document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
 	}
 
 };
