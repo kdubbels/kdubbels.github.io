@@ -47,9 +47,6 @@ class ThemeBox extends Component {
           document.getElementById('el').style = "background-color: " + localStorage.getItem('color');
     }
 
-    // document.getElementById('el').style = "background-color: " + childData.stroke;
-
-
     body.style.backgroundColor = localStorage.backgroundColor;
     body.style.color = localStorage.color;
 
