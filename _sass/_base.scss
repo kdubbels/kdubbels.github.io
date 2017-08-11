@@ -8,8 +8,8 @@ html {
 
 body {
 //  background-color: rgb(252, 252, 252);
-  -webkit-transition: all 0.5s ease-out; /* Safari */
-    transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in-out; /* Safari */
+    transition: all 0.5s ease-in-out;
 }
 
 p, ul, li {
@@ -56,7 +56,12 @@ p, ul, li {
 
 header { 
   font-family: "Megrim", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 44px;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
 }
 
 .post header h1 {

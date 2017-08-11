@@ -2,15 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import ColorTransitioner from './components/ColorTransitioner';
+import Panel from './components/Panel';
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//       </div>
-//     );
-//   }
-// }
+
 
 // THE COLORS YEAH
 const themesList = [
@@ -48,3 +42,6 @@ const themesList = [
 
 ReactDOM.render(<ColorTransitioner themesList={themesList} />
 , document.getElementById('colorPicker'));
+
+ReactDOM.render(<Panel themesList={themesList} />
+, document.getElementById('panel'));

@@ -1,7 +1,10 @@
 a {
-	background: inherit;
-	color: inherit;
-	text-decoration: underline;
+  -webkit-transition: all 0.5s ease-in-out; /* Safari */
+  transition: all 0.5s ease-in-out;
+  background: inherit;
+  color: inherit;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
 }
 
 a:hover {

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import ThemeBox from './ThemeBox';
 
 class ColorTransitioner extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="ColorTransitioner">

@@ -6,7 +6,6 @@ class ThemeSample extends Component {
     super(props);
   }
 
-
   render() {
     return (
       <circle

@@ -8949,16 +8949,11 @@
 
 	var _ColorTransitioner2 = _interopRequireDefault(_ColorTransitioner);
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _Panel = __webpack_require__(516);
 
-	// class App extends Component {
-	//   render() {
-	//     return (
-	//       <div className="App">
-	//       </div>
-	//     );
-	//   }
-	// }
+	var _Panel2 = _interopRequireDefault(_Panel);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// THE COLORS YEAH
 	var themesList = [{
@@ -8988,6 +8983,8 @@
 	}];
 
 	_reactDom2.default.render(_react2.default.createElement(_ColorTransitioner2.default, { themesList: themesList }), document.getElementById('colorPicker'));
+
+	_reactDom2.default.render(_react2.default.createElement(_Panel2.default, { themesList: themesList }), document.getElementById('panel'));
 
 /***/ },
 /* 330 */
@@ -31051,10 +31048,10 @@
 	var ColorTransitioner = function (_Component) {
 	  _inherits(ColorTransitioner, _Component);
 
-	  function ColorTransitioner() {
+	  function ColorTransitioner(props) {
 	    _classCallCheck(this, ColorTransitioner);
 
-	    return _possibleConstructorReturn(this, (ColorTransitioner.__proto__ || Object.getPrototypeOf(ColorTransitioner)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (ColorTransitioner.__proto__ || Object.getPrototypeOf(ColorTransitioner)).call(this, props));
 	  }
 
 	  _createClass(ColorTransitioner, [{
@@ -31145,6 +31142,8 @@
 
 	      var body = document.body;
 
+	      document.getElementById('el').style = "background-color: " + childData.stroke;
+
 	      body.style.backgroundColor = localStorage.backgroundColor;
 	      body.style.color = localStorage.color;
 	    }
@@ -31231,6 +31230,140 @@
 	}(_react.Component);
 
 	exports.default = ThemeSample;
+
+/***/ },
+/* 516 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(330);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	// $(document).ready(function(){
+	//   $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+	//     $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+	//     e.preventDefault();
+	//   });
+	// });
+
+	var Panel = function (_Component) {
+	  _inherits(Panel, _Component);
+
+	  function Panel(props) {
+	    _classCallCheck(this, Panel);
+
+	    var _this = _possibleConstructorReturn(this, (Panel.__proto__ || Object.getPrototypeOf(Panel)).call(this, props));
+
+	    var _this$props$themesLis = _slicedToArray(_this.props.themesList, 1),
+	        firstTheme = _this$props$themesLis[0];
+
+	    _this.handleClick = _this.handleClick.bind(_this);
+
+	    _this.state = {
+	      key: 'value',
+	      isVisible: "",
+	      selectedTheme: firstTheme.id,
+	      stroke: localStorage.getItem('color'),
+	      fill: localStorage.getItem('backgroundColor')
+	    };
+
+	    return _this;
+	  }
+
+	  _createClass(Panel, [{
+	    key: 'handleClick',
+	    value: function handleClick(e) {
+	      e.preventDefault();
+
+	      console.log('foo');
+	      console.log(e);
+
+	      var isVisible = void 0;
+	      if (this.state.isVisible == "") {
+	        isVisible = "is-visible";
+	      } else {
+	        isVisible = "";
+	      }
+
+	      this.setState({
+	        isVisible: isVisible,
+	        stroke: localStorage.getItem('color'),
+	        fill: localStorage.getItem('backgroundColor')
+	      });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var style = {
+	        backgroundColor: this.state.fill,
+	        color: this.state.stroke
+	      };
+
+	      var elStyle = {
+	        backgroundColor: this.state.stroke
+	      };
+
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'Panel' },
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'threeLines', className: this.state.isVisible ? "active" : "", onClick: this.handleClick },
+	          _react2.default.createElement('button', { id: 'el', style: elStyle })
+	        ),
+	        _react2.default.createElement(
+	          'nav',
+	          { className: "js-menu sliding-panel-content " + this.state.isVisible, style: style },
+	          _react2.default.createElement(
+	            'ul',
+	            null,
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: '/about/' },
+	                'About'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: '/blog/' },
+	                'Blog'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement('div', { className: "js-menu-screen sliding-panel-fade-screen " + this.state.isVisible, onClick: this.handleClick })
+	      );
+	    }
+	  }]);
+
+	  return Panel;
+	}(_react.Component);
+
+	exports.default = Panel;
 
 /***/ }
 /******/ ]);
