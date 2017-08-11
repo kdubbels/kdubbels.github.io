@@ -69,6 +69,7 @@ class Panel extends Component {
     		    <li><a href="/about/">About</a></li>
     		    <li><a href="/blog/">Blog</a></li>
     		  </ul>
+          
     		</nav>
 
     		<div className={"js-menu-screen sliding-panel-fade-screen " + this.state.isVisible} onClick={this.handleClick}></div>

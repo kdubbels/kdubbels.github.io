@@ -36,7 +36,19 @@ class ThemeBox extends Component {
 
     const body = document.body;
 
-    document.getElementById('el').style = "background-color: " + childData.stroke;
+
+    if (pageYOffset > 150) {
+      document.querySelector('header').style.backgroundColor = localStorage.getItem('color');
+      document.querySelector('header').style.color = localStorage.getItem('backgroundColor');
+        document.getElementById('el').style = "background-color: " + localStorage.getItem('backgroundColor');
+    } else if (pageYOffset <= 150) {
+      document.querySelector('header').style.backgroundColor = localStorage.getItem('backgroundColor');
+      document.querySelector('header').style.color = localStorage.getItem('color');
+          document.getElementById('el').style = "background-color: " + localStorage.getItem('color');
+    }
+
+    // document.getElementById('el').style = "background-color: " + childData.stroke;
+
 
     body.style.backgroundColor = localStorage.backgroundColor;
     body.style.color = localStorage.color;
