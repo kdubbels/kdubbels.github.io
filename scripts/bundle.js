@@ -31329,9 +31329,13 @@
 	        backgroundColor: this.state.stroke
 	      };
 
+	      var paddingRight = {
+	        padding: "0 45px 0 0"
+	      };
+
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'Panel' },
+	        { className: 'Panel', style: paddingRight },
 	        _react2.default.createElement(
 	          'div',
 	          { id: 'threeLines', className: this.state.isVisible ? "active" : "", onClick: this.handleClick },

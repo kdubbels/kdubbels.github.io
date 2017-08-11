@@ -57,8 +57,12 @@ class Panel extends Component {
       backgroundColor: this.state.stroke
     }
 
+    const paddingRight = {
+      padding: "0 45px 0 0"
+    }
+
     return (
-      <div className="Panel">
+      <div className="Panel" style={paddingRight}>
 
         <div id="threeLines" className={this.state.isVisible ? "active" : ""} onClick={this.handleClick}>
     		  <button id="el" style={elStyle}></button>
