@@ -14,14 +14,14 @@ const themesList = [
     stroke: '#a78247',
   },
   {
-    id: 'blueberry',
-    fill: '#171e26',
-    stroke: '#248deb',
+    id: 'homebrew',
+    fill: 'rgba(0,0,0,0.7)',
+    stroke: '#05FE04',
   },
   {
-    id: 'faded-forest',
-    fill: '#98c673',
-    stroke: '#957a51',
+    id: 'commodore-64',
+    fill: '#4C36A7',
+    stroke: '#C4ACFF'
   },
   {
     id: 'good-ol-💅',

@@ -1,12 +1,4 @@
 .sliding-panel-content {
-  $dark-gray: #333 !default;
-  $sliding-panel-border-color: $dark-gray;
-  $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
-  $sliding-panel-color: #fff;
-  $sliding-panel-border: 1px solid $sliding-panel-border-color;
-  $sliding-panel-color-hover: #fff;
-  $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
-
   position: fixed; 
   top: 120px; 
   right: auto; 
@@ -14,7 +6,7 @@
   left: 0;
   width: 50%;
   height: 100%;
-  background: $sliding-panel-background;
+  background: inherit;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
   transform: translateX(200%);
@@ -34,7 +26,6 @@
     -webkit-transition: all 0.5s ease-out; /* Safari */
     transition: all 0.5s ease-out;
     text-align: center;
-    border-bottom: $sliding-panel-border;
     display: block;
     font-family: "Megrim", Helvetica, Arial, sans-serif;
     font-size: 32px;
@@ -43,7 +34,6 @@
     letter-spacing: 0.5em;
 
     &:focus {
-      background-color: $sliding-panel-background-focus;
     }
 
     &:hover {
@@ -88,7 +78,7 @@
     width: 40px;
     padding: 0px;
     height: 3px;
-    background: black;
+    background: inherit;
     box-shadow: 0px 0px 0px transparent;
     border: 0px transparent;
     text-indent: -999px;

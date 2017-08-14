@@ -8961,13 +8961,13 @@
 	  fill: '#303030',
 	  stroke: '#a78247'
 	}, {
-	  id: 'blueberry',
-	  fill: '#171e26',
-	  stroke: '#248deb'
+	  id: 'homebrew',
+	  fill: 'rgba(0,0,0,0.7)',
+	  stroke: '#05FE04'
 	}, {
-	  id: 'faded-forest',
-	  fill: '#98c673',
-	  stroke: '#957a51'
+	  id: 'commodore-64',
+	  fill: '#4C36A7',
+	  stroke: '#C4ACFF'
 	}, {
 	  id: 'good-ol-💅',
 	  fill: 'papayawhip',
@@ -31297,6 +31297,32 @@
 	  }
 
 	  _createClass(Panel, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      window.onload = function () {
+	        if (pageYOffset > 150) {
+	          document.querySelector('header').style.backgroundColor = localStorage.getItem('color');
+	          document.querySelector('header').style.color = localStorage.getItem('backgroundColor');
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+	        } else if (pageYOffset <= 150) {
+	          document.querySelector('header').style.backgroundColor = localStorage.getItem('backgroundColor');
+	          document.querySelector('header').style.color = localStorage.getItem('color');
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+	        }
+	      };
+	      window.onscroll = function () {
+	        if (pageYOffset > 150) {
+	          document.querySelector('header').style.backgroundColor = localStorage.getItem('color');
+	          document.querySelector('header').style.color = localStorage.getItem('backgroundColor');
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+	        } else if (pageYOffset <= 150) {
+	          document.querySelector('header').style.backgroundColor = localStorage.getItem('backgroundColor');
+	          document.querySelector('header').style.color = localStorage.getItem('color');
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+	        }
+	      };
+	    }
+	  }, {
 	    key: 'handleClick',
 	    value: function handleClick(e) {
 	      e.preventDefault();
@@ -31307,8 +31333,18 @@
 	      var isVisible = void 0;
 	      if (this.state.isVisible == "") {
 	        isVisible = "is-visible";
+	        if (pageYOffset > 150) {
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+	        } else if (pageYOffset <= 150) {
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+	        }
 	      } else {
 	        isVisible = "";
+	        if (pageYOffset > 150) {
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+	        } else if (pageYOffset <= 150) {
+	          document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+	        }
 	      }
 
 	      this.setState({
@@ -31326,7 +31362,7 @@
 	      };
 
 	      var elStyle = {
-	        backgroundColor: this.state.stroke
+	        // backgroundColor: this.state.fill
 	      };
 
 	      var paddingRight = {
@@ -31339,7 +31375,7 @@
 	        _react2.default.createElement(
 	          'div',
 	          { id: 'threeLines', className: this.state.isVisible ? "active" : "", onClick: this.handleClick },
-	          _react2.default.createElement('button', { id: 'el', style: elStyle })
+	          _react2.default.createElement('button', { id: 'el' })
 	        ),
 	        _react2.default.createElement(
 	          'nav',
