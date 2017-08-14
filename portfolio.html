@@ -1,0 +1,17 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+
+  <h1 class="page-title">Portfolio</h1>
+  <ul>
+    {% for item in site.items %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+        </h2>
+        <div class="clearfix"></div>
+      </li>
+    {% endfor %}
+  </ul>

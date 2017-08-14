@@ -24,17 +24,20 @@
       https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information
     */}
 
+    var body;
+    var bgColor;
+    var color;
+    var stylesheet = document.styleSheets[0];
+
     if (localStorage.length !== 0) {
-      var body = document.body;
+      body = document.body;
 
-      var bgColor = localStorage.getItem('backgroundColor');
-      var color = localStorage.getItem('color');
+      bgColor = localStorage.getItem('backgroundColor');
+      color = localStorage.getItem('color');
 
-      var stylesheet = document.styleSheets[0];
       stylesheet.cssRules[0].style.backgroundColor = bgColor;
       stylesheet.cssRules[0].style.color = color;
     } else {
-      var stylesheet = document.styleSheets[0];
       stylesheet.cssRules[0].style.backgroundColor = "#fcfcfc";
       stylesheet.cssRules[0].style.color = "#333";
     }
@@ -42,6 +45,7 @@
   </script>
 
   <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet" type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />

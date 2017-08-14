@@ -26,6 +26,31 @@ class Panel extends Component {
 
   }
 
+  componentDidMount() {
+    window.onload = function() {
+      if (pageYOffset > 150) {
+        document.querySelector('header').style.backgroundColor = localStorage.getItem('color');
+        document.querySelector('header').style.color = localStorage.getItem('backgroundColor');
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+      } else if (pageYOffset <= 150) {
+        document.querySelector('header').style.backgroundColor = localStorage.getItem('backgroundColor');
+        document.querySelector('header').style.color = localStorage.getItem('color');
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+      }
+    }
+    window.onscroll = function() {
+      if (pageYOffset > 150) {
+        document.querySelector('header').style.backgroundColor = localStorage.getItem('color');
+        document.querySelector('header').style.color = localStorage.getItem('backgroundColor');
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+      } else if (pageYOffset <= 150) {
+        document.querySelector('header').style.backgroundColor = localStorage.getItem('backgroundColor');
+        document.querySelector('header').style.color = localStorage.getItem('color');
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+      }
+    }
+  }
+
   handleClick(e) {
   	e.preventDefault();
 
@@ -35,8 +60,18 @@ class Panel extends Component {
     let isVisible;
     if (this.state.isVisible == "") {
     	isVisible = "is-visible";
+      if (pageYOffset > 150) {
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+      } else if (pageYOffset <= 150) {
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+      }
     } else {
     	isVisible = "";
+      if (pageYOffset > 150) {
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('backgroundColor');
+      } else if (pageYOffset <= 150) {
+        document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
+      }
     }
 
     this.setState({
@@ -54,7 +89,7 @@ class Panel extends Component {
   	};
 
     const elStyle = {
-      backgroundColor: this.state.stroke
+      // backgroundColor: this.state.fill
     }
 
     const paddingRight = {
@@ -65,7 +100,7 @@ class Panel extends Component {
       <div className="Panel" style={paddingRight}>
 
         <div id="threeLines" className={this.state.isVisible ? "active" : ""} onClick={this.handleClick}>
-    		  <button id="el" style={elStyle}></button>
+    		  <button id="el"></button>
     		</div>
     		
     		<nav className={"js-menu sliding-panel-content " + this.state.isVisible} style={style}>
