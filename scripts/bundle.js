@@ -8963,7 +8963,7 @@
 	}, {
 	  id: 'homebrew',
 	  fill: 'rgba(0,0,0,0.7)',
-	  stroke: '#05FE04'
+	  stroke: 'rgba(5, 254, 4, 0.9)'
 	}, {
 	  id: 'commodore-64',
 	  fill: '#4C36A7',
