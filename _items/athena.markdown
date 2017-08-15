@@ -3,6 +3,8 @@ layout: portfolio
 title: "Athena"
 date:   2017-05-20 12:31:00
 image: "https://kdubbels.github.io/images/athena/athena1.gif"
+description: "A data visualization I built to show significant long-term trends in healthcare and medical services for athenahealth, Inc."
+tech: "React, D3"
 ---
 
 ![My helpful screenshot]({{ site.url }}/images/athena/athena1.gif)

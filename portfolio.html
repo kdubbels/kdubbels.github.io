@@ -15,7 +15,8 @@ permalink: /portfolio/
 
         <img src="{{ item.image | prepend: site.baseurl }}" alt="" />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nostrum, libero! Laborum distinctio necessitatibus voluptates eaque officiis, unde illo, earum voluptatum rerum, reiciendis ipsa ex dolorem a dicta, maxime aliquam.</p>
+        <p>{{ item.description }}</p>
+        <p>Technologies used: {{ item. tech }}</p>
       </a>
     {% endfor %}
 

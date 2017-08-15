@@ -1,8 +1,10 @@
 ---
 layout: portfolio
-title: "CUSEF"
+title: "CUSEF Sout China Sea"
 date:   2017-05-20 12:31:00
 image: "https://kdubbels.github.io/images/cusef/cusef1.png"
+description: "A series of data visualizations and UI widgets I built for CUSEF to convey information about the history and politics surrounding territorial claims in the South China Sea."
+tech: "React, D3"
 ---
 
 ![My helpful screenshot]({{ site.url }}/images/cusef/cusef1.gif)
