@@ -1,12 +1,25 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="Kristofer Dubbels">
   <meta name="keywords" content="kristofer, dubbels, javascript, developer, denver">
   <meta name="rating" content="General">
   <meta name="theme-color" content="#db7093">
+  <!-- Twitter metadata -->
+  <meta content="summary" property="twitter:card">
+  <meta content="kd dot io" property="twitter:title">
+  <meta content="summary" property="twitter:card">
+  <meta content="@callmemrpibb" property="twitter:site">
+  <meta content="Kristofer Dubbels is a web developer in Denver, CO." property="twitter:description">
+  <meta content="https://kdubbels.github.io/images/fb-preview.png" property="twitter:image">
+
+  <!-- Facebook metadata -->
+  <meta content="website" property="og:type">
+  <meta content="https://kdubbels.github.io" property="og:url">
+  <meta content="kd dot io" property="og:title">
+  <meta content="Kristofer Dubbels is a web developer in Denver, CO." property="og:description">
+  <meta content="https://kdubbels.github.io/images/fb-preview.png" property="og:image">
 
 
   <title>{% if page.title %}KD.io {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
