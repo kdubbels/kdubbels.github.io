@@ -1,7 +1,88 @@
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
 .portfolio-content {
 	img {
 		max-width: 100%;
 		height: auto;
 		display: block;
 	}
+}
+
+.flex-boxes {
+  $base-border-radius: 0px !default;
+  $base-background-color: white !default;
+  $dark-gray: #333 !default;
+  $light-gray: #DDD !default;
+  $base-font-color: $dark-gray !default;
+  $flex-box-border-color: $light-gray;
+  $flex-box-border: 1px solid $flex-box-border-color;
+  $flex-box-background: lighten($light-gray, 10%);
+  $flex-box-gutter: 0.4em;
+  $flex-box-width: 18em;
+  $flex-box-color: transparentize($base-font-color, 0.3);
+  $flex-box-top-colors:
+//    tomato,
+//    #72BFBF,
+//    #92B1E3,
+//    #E3D743,
+    #CCC;
+//    #F6C05C;
+
+  @include clearfix;
+  align-items: stretch;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+
+  .flex-box {
+    align-self: stretch;
+    background: $flex-box-background;
+    border-radius: $base-border-radius;
+    //box-shadow: inset 0 0 1px $flex-box-border-color, 0 2px 4px darken($base-background-color, 10%);
+    display: block;
+    flex: 2 2 15em;
+    margin: $flex-box-gutter;
+    padding: 2em 2em 3em 2em;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border-top: 6px solid #333;
+
+    &:focus,
+    &:hover {
+      background-color: transparentize(#333, 0.9);
+    }
+        
+    
+
+    img {
+      display: block;
+      //height: 3em;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto 1em;
+      //opacity: 0.4;
+    }
+
+    .flex-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      line-height: 1.2em;
+      margin: auto;
+    }
+  }
+
+  .flex-box-big {
+    flex: 1 1 40em;
+  }
 }

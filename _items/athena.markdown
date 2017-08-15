@@ -2,6 +2,7 @@
 layout: portfolio
 title: "Athena"
 date:   2017-05-20 12:31:00
+image: "https://kdubbels.github.io/images/athena/athena1.gif"
 ---
 
 ![My helpful screenshot]({{ site.url }}/images/athena/athena1.gif)

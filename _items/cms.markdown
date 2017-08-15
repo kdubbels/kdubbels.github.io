@@ -2,6 +2,7 @@
 layout: portfolio
 title: "Content Management System"
 date:   2017-05-20 12:31:00
+image: "https://kdubbels.github.io/images/cms/cms1.png"
 ---
 
 ![My helpful screenshot]({{ site.url }}/images/cms/cms1.gif)

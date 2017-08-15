@@ -5,13 +5,18 @@ permalink: /portfolio/
 ---
 
   <h1 class="page-title">Portfolio</h1>
-  <ul>
+  
+  <div class="flex-boxes">
+
     {% for item in site.items %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-        </h2>
-        <div class="clearfix"></div>
-      </li>
+      <a href="{{ item.url | prepend: site.baseurl }}" class="flex-box">
+
+        <h2 class="flex-title">{{ item.title }}</h2>
+
+        <img src="{{ item.image | prepend: site.baseurl }}" alt="" />
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nostrum, libero! Laborum distinctio necessitatibus voluptates eaque officiis, unde illo, earum voluptatum rerum, reiciendis ipsa ex dolorem a dicta, maxime aliquam.</p>
+      </a>
     {% endfor %}
-  </ul>
+
+  </div>
