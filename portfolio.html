@@ -15,9 +15,10 @@ permalink: /portfolio/
 
         <img src="{{ item.image | prepend: site.baseurl }}" alt="" />
 
+        <p><strong>Summary:</strong></p>
         <p>{{ item.description }}</p>
-        <br />
-        <p><strong>Technologies used:</strong> {{ item.tech }}</p>
+        <p><strong>Technologies used:</strong></p>
+        <p>{{ item.tech }}</p>
       </a>
     {% endfor %}
 
