@@ -3,7 +3,7 @@ layout: portfolio
 title: "Athena HPPN"
 date:   2017-05-20 12:31:00
 image: "https://kdubbels.github.io/images/hppn/hppn1.png"
-description: "An interactive normal curve comparator I built for athenahealth, Inc. The data visualization I am most proud of in all of my career. I had to learn *a lot* about SVG for this one."
+description: "An interactive normal curve comparator I built for athenahealth, Inc. The data visualization I am most proud of in all of my career. I had to learn a lot about SVG for this one."
 tech: "React, D3, SVG"
 ---
 
