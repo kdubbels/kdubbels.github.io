@@ -3,15 +3,6 @@ import ReactDOM from 'react-dom';
 
 import ColorTransitioner from './components/ColorTransitioner';
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//       </div>
-//     );
-//   }
-// }
-
 // THE COLORS YEAH
 const themesList = [
   {
