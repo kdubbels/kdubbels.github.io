@@ -128,3 +128,13 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .sliding-panel-content {
+    width: 100%;
+
+    &.is-visible {
+      transform: translateX(0);
+    }
+  }
+}
