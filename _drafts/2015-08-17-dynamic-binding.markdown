@@ -267,9 +267,9 @@ You might now wonder, having already explained above that dynamic scoping is rel
 
 Indeed, the two scoping mechanisms were interchangeable in early Lisp implementations. The first implementation of Lisp - way back in 1958 - used dynamic scoping. And, indeed, in the 1960s, the language Logo, intended to teach basic programming concepts to children using "turtle graphics" relied on dynamic scoping _on purpose for it's supposed simplicity_.
 
-This "simplicity" may be surprising in the present, since the most widely-used implementation of dynamic scoping - JavaScript's `this` - is a notorious source of confusion and heartache for web developers. In particular, JavaScript's `this` is an enormous source of confusion for programmers coming to JavaScript from Java. In Java, of course, the `this` keyword is a way to bind methods to a class. JavaScript, which lacks classes (although JavaScript does have a `class` keyword, it ultimately does not use class-based inheritance). In JavaScript, by contrast, `this` can't refer to a class; there are no classes*.
+This "simplicity" may be surprising in the present, since the most widely-used implementation of dynamic scoping - JavaScript's `this` - is a notorious source of confusion and heartache for web developers. In particular, JavaScript's `this` is an enormous source of confusion for programmers coming to JavaScript from Java. In Java, of course, the `this` keyword is a way to bind methods to a class. JavaScript, which lacks classes (although JavaScript does have a `class` keyword, it ultimately does not use class-based inheritance). In JavaScript, by contrast, `this` can't refer to a class; there are no classes†.
 
-* Of course "classes" were introduced in ES6, but they aren't _really_ classes and there's not really a compelling reason to use them outside of certain frameworks (such as React).
+† Of course "classes" were introduced in ES6, but they aren't _really_ classes and there's not really a compelling reason to use them outside of certain frameworks (such as React).
 
 
 
