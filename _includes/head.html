@@ -1,10 +1,29 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Kristofer Dubbels">
+  <meta name="keywords" content="kristofer, dubbels, javascript, developer, denver">
+  <meta name="rating" content="General">
+  <meta name="theme-color" content="#db7093">
+  <!-- Twitter metadata -->
+  <meta content="summary" property="twitter:card">
+  <meta content="kd dot io" property="twitter:title">
+  <meta content="summary" property="twitter:card">
+  <meta content="@callmemrpibb" property="twitter:site">
+  <meta content="Kristofer Dubbels is a web developer in Denver, CO." property="twitter:description">
+  <meta content="https://kdubbels.github.io/images/fb-preview.png" property="twitter:image">
+
+  <!-- Facebook metadata -->
+  <meta content="website" property="og:type">
+  <meta content="https://kdubbels.github.io" property="og:url">
+  <meta content="kd dot io" property="og:title">
+  <meta content="Kristofer Dubbels is a web developer in Denver, CO." property="og:description">
+  <meta content="https://kdubbels.github.io/images/fb-preview.png" property="og:image">
+
+
+  <title>{% if page.title %}KD.io {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
   <style type="text/css">
     body {
 /*     background-color: white;
@@ -18,20 +37,28 @@
       https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information
     */}
 
-    if (localStorage.getItem('backgroundColor') && localStorage.getItem('color')) {
-      var body = document.body;
+    var body;
+    var bgColor;
+    var color;
+    var stylesheet = document.styleSheets[0];
 
-      var bgColor = localStorage.getItem('backgroundColor');
-      var color = localStorage.getItem('color');
+    if (localStorage.length !== 0) {
+      body = document.body;
 
-      var stylesheet = document.styleSheets[0];
+      bgColor = localStorage.getItem('backgroundColor');
+      color = localStorage.getItem('color');
+
       stylesheet.cssRules[0].style.backgroundColor = bgColor;
       stylesheet.cssRules[0].style.color = color;
+    } else {
+      stylesheet.cssRules[0].style.backgroundColor = "#fcfcfc";
+      stylesheet.cssRules[0].style.color = "#333";
     }
 
   </script>
 
   <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet" type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />

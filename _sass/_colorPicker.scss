@@ -1,0 +1,11 @@
+circle.theme-select {
+    transition: all 0.5s ease-out;
+}
+
+circle.theme-select:hover {
+	stroke-width: 2;
+}
+
+circle.theme-select:active {
+	stroke-width: 3;
+}

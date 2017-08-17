@@ -1,0 +1,25 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+
+  <h1 class="page-title">Portfolio</h1>
+  
+  <div class="flex-boxes">
+
+    {% for item in site.items %}
+      <a href="{{ item.url | prepend: site.baseurl }}" class="flex-box">
+
+        <h2 class="flex-title">{{ item.title }}</h2>
+
+        <img src="{{ item.image | prepend: site.baseurl }}" alt="" />
+
+        <p><strong>##Summary:</strong></p>
+        <p>{{ item.description }}</p>
+        <p><strong>##Technologies used:</strong></p>
+        <p>{{ item.tech }}</p>
+      </a>
+    {% endfor %}
+
+  </div>

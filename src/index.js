@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import ColorTransitioner from './components/ColorTransitioner';
+import Panel from './components/Panel';
 
-// THE COLORS YEAH
 const themesList = [
   {
     id: 'original-gold',
@@ -11,14 +11,14 @@ const themesList = [
     stroke: '#a78247',
   },
   {
-    id: 'blueberry',
-    fill: '#171e26',
-    stroke: '#248deb',
+    id: 'homebrew',
+    fill: 'rgba(0,0,0,0.7)',
+    stroke: 'rgba(5, 254, 4, 0.9)',
   },
   {
-    id: 'faded-forest',
-    fill: '#98c673',
-    stroke: '#957a51',
+    id: 'commodore-64',
+    fill: '#4C36A7',
+    stroke: '#C4ACFF'
   },
   {
     id: 'good-ol-💅',
@@ -38,4 +38,7 @@ const themesList = [
 ];
 
 ReactDOM.render(<ColorTransitioner themesList={themesList} />
-, document.getElementById('foo'));
+, document.getElementById('colorPicker'));
+
+ReactDOM.render(<Panel themesList={themesList} />
+, document.getElementById('panel'));

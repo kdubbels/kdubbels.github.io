@@ -7,18 +7,21 @@ html {
 }
 
 body {
-//  background-color: rgb(252, 252, 252);
-  -webkit-transition: all 0.5s ease-out; /* Safari */
-    transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in-out; /* Safari */
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
 }
 
 p, ul, li {
-//  color: #333;
-  font-family: Helevetica, Arial, sans-serif;
+  font-family: 'Cousine', 'Helvetica', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
 
+#page {
+  padding-top: 120px;
+  min-height: calc(100vh - 100px);
+}
 
 .footer {
 	height: 100px;
@@ -52,10 +55,22 @@ p, ul, li {
 
 header { 
   font-family: "Megrim", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 44px;
+  text-decoration: none;
+  height: 120px;
+  z-index: 999;
+  position: fixed;
+  display: block;
+  background-color: inherit;
+  width: 100%;
+  padding-left: 45px;
 }
 
-.post header h1 {
+header a {
+  text-decoration: none;
+}
+
+h1.post-title {
   font-size: 84px;
 }
 

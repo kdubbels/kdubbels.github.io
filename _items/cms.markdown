@@ -1,0 +1,16 @@
+---
+layout: portfolio
+title: "Content Management System"
+date:   2017-05-20 12:31:00
+image: "https://kdubbels.github.io/images/cms/cms1.png"
+description: "A fully-functional, artisanal CMS built for a boutique financial services firm. I built the entire entire back-end and wrote all the JavaScript as part of a two-person team with a front-end designer."
+tech: "Ruby on Rails, React, jQuery, Foundation"
+---
+
+![My helpful screenshot]({{ site.url }}/images/cms/cms1.gif)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris id varius consectetur, metus felis feugiat nulla, sed gravida mi ante vel ipsum. Duis cursus ante nec orci sodales, facilisis porttitor nulla luctus. Morbi ac mauris sed nulla vulputate convallis vel sed dolor. Praesent at congue leo, vel gravida felis. Morbi hendrerit id tortor eget tristique. Sed porta lobortis mauris, ac aliquam ex interdum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus lorem, luctus quis nunc eget, porttitor vulputate turpis.
+
+![My helpful screenshot]({{ site.url }}/images/cms/cms1.png)
+
+![My helpful screenshot]({{ site.url }}/images/cms/cms2.gif)
