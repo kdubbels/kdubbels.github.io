@@ -13036,8 +13036,8 @@ var themesList = [{
   stroke: '#96ceb4'
 }, {
   id: 'standard',
-  fill: '#fcfcfc',
-  stroke: '#333'
+  fill: 'rgba(252,252,252,0.85)',
+  stroke: 'rgba(51,51,51,0.85)'
 }];
 
 _reactDom2.default.render(_react2.default.createElement(_ColorTransitioner2.default, { themesList: themesList }), document.getElementById('colorPicker'));
@@ -13233,6 +13233,9 @@ var Panel = function (_Component) {
         } else if (pageYOffset <= 150) {
           document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
         }
+
+        document.getElementById('page').style.filter = "blur(2px)";
+        document.querySelector('footer.footer').style.filter = "blur(2px)";
       } else {
         isVisible = "";
         if (pageYOffset > 150) {
@@ -13240,6 +13243,9 @@ var Panel = function (_Component) {
         } else if (pageYOffset <= 150) {
           document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
         }
+
+        document.getElementById('page').style.filter = "";
+        document.querySelector('footer.footer').style.filter = "";
       }
 
       this.setState({
@@ -13274,7 +13280,7 @@ var Panel = function (_Component) {
         ),
         _react2.default.createElement(
           'nav',
-          { className: "js-menu sliding-panel-content " + this.state.isVisible, style: style },
+          { className: "js-menu sliding-panel-content " + this.state.isVisible, style: style, role: 'navigation' },
           _react2.default.createElement(
             'ul',
             null,

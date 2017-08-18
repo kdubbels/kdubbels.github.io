@@ -3,13 +3,32 @@ $coral: #FC636B;
 $brightCoral: #FF6D92;
 
 html {
-	
+  
 }
 
 body {
-  -webkit-transition: all 0.5s ease-in-out; /* Safari */
-  transition: all 0.5s ease-in-out;
   z-index: 1;
+   -webkit-transition: all 0.5s ease-in-out; /* Safari */
+  transition: all 0.5s ease-in-out;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+  width: 85%;
+}
+th { 
+  background-color: #f7f7f7;
+}
+
+td {
+  background-color: inherit;
+}
+th, td {
+  border: none; 
+  color: inherit;
+  padding-left: 5px;
+  text-align: left;
 }
 
 p, ul, li, th, td {
@@ -21,37 +40,12 @@ p, ul, li, th, td {
 #page {
   padding-top: 120px;
   min-height: calc(100vh - 100px);
+  //transition: inherit;
 }
 
 .footer {
 	height: 100px;
 }
-
-/*
-@media screen and (max-width: 960px) {  
-  body {
-    padding: 10px;
-  }
-  body:before, body:after {
-      content: "";
-      position: fixed;
-      background: $brightCoral;
-      left: 0;
-      right: 0;
-      height: 5px;
-  }
-  body:before {
-      top: 0;
-  }
-  body:after {
-      bottom: 0;
-  }
-  body {
-      border-left: 5px solid $brightCoral;
-      border-right: 5px solid $brightCoral;  
-  }
-}
-*/
 
 header { 
   font-family: "Megrim", Helvetica, Arial, sans-serif;
@@ -100,4 +94,15 @@ h1.post-title {
 
 circle.theme-select {
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) { 
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h1.post-title {
+    font-size: 60px;
+  }
+
 }

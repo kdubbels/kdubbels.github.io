@@ -53,6 +53,9 @@
     } else {
       stylesheet.cssRules[0].style.backgroundColor = "#fcfcfc";
       stylesheet.cssRules[0].style.color = "#333";
+
+      bgColor = localStorage.setItem('backgroundColor', "#fcfcfc");
+      color = localStorage.setItem('color', "#333");
     }
 
   </script>
@@ -62,4 +65,22 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <style type="text/css" media="print">
+  /*
+    For every link on the page, this 
+    adds the value of the href inside 
+    parentheses after the link’s text
+    when page is physically printed.
+  */
+    a:after {
+      content: " (" attr(href) ") ";
+    }
+    #page {
+      filter: none;
+    }
+    header, footer {
+      display: none;
+    }
+  </style>
+
 </head>

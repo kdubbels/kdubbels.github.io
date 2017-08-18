@@ -32,8 +32,8 @@ const themesList = [
   },
   {
     id: 'standard',
-    fill: '#fcfcfc',
-    stroke: '#333',
+    fill: 'rgba(252,252,252,0.85)',
+    stroke: 'rgba(51,51,51,0.85)',
   },
 ];
 

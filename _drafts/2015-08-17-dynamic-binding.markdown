@@ -106,7 +106,7 @@ So, let's review - there are six names in this program: `x`, `y`, `p`, `q`, and 
 Pass through p()
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 2 -> 1        |
 | y             | 10 -> "foo"   |
 | p             | undefined     |
@@ -116,7 +116,7 @@ Note that `p` has no binding, since it doesn't return anything. (In C, we'd call
 Now, let's pass through q()
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 2             |
 | y             | 1 -> 10       |
 | p             | undefined     |
@@ -127,7 +127,7 @@ A new symbol has been added to the table (`q`) and a new binding has been added 
 Now, let's pass through the final section of the program
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | "bar" -> 2 |
 | y             | 1 |
 | p             | undefined     |
@@ -137,7 +137,7 @@ Now, let's pass through the final section of the program
 The final symbol table will look like this:
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | "bar"         |
 | y             | 1             |
 | p             | undefined     |
@@ -176,7 +176,7 @@ Examining the symbol table of a dynamically scoped program is more difficult tha
 So rather than analyzing the program line-by-line, let's start with a symbol table showing all the values immediately available in global scope:
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 1             |
 | y             | "a"           |
 | p             | undefined     |
@@ -188,7 +188,7 @@ Now let's start processing the bodies of the individual functions.
 Now, let's say we make a call to `p()`
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 2.5 -> 1      |
 | y             | "a"           |
 | p             | undefined     |
@@ -198,7 +198,7 @@ Now, let's say we make a call to `p()`
 Once we run through `p()`, our symbol table again looks like this - we are back in global scope: 
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 1             |
 | y             | "a"           |
 | p             | undefined     |
@@ -208,7 +208,7 @@ Once we run through `p()`, our symbol table again looks like this - we are back 
 But as we continue, the symbol table _from with `_q()`, but before we call `p()`_ will look like this: 
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 1             |
 | y             | 42 -> "a"     |
 | p             | undefined     |
@@ -218,7 +218,7 @@ But as we continue, the symbol table _from with `_q()`, but before we call `p()`
 So what happens when we call `p()` within `q()`?
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 2.5 -> 1      |
 | y             | 42 -> "a"     |
 | p             | undefined     |
@@ -230,7 +230,7 @@ So what happens when we call `p()` within `q()`?
 Now, let's take a look at our final procedure, `m`:
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | b -> 1        |
 | y             | "a"           |
 | p             | undefined     |
@@ -240,7 +240,7 @@ Now, let's take a look at our final procedure, `m`:
 `x` is now bound to "b" - but then a call is made to `q()`:
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | b -> 1        |
 | y             | 42 -> "a"     |
 | p             | undefined     |
@@ -250,7 +250,7 @@ Now, let's take a look at our final procedure, `m`:
 The symbol table, then, of `p()` when it is called by `q()` which is called by `m()`, is  
 
 | Name          | Bindings      |
-| ------------- |:------------- |
+| ------------- | ------------- |
 | x             | 2.5 -> b -> 1 |
 | y             | 42 -> "a"     |
 | p             | undefined     |

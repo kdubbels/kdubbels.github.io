@@ -65,6 +65,10 @@ class Panel extends Component {
       } else if (pageYOffset <= 150) {
         document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
       }
+
+      document.getElementById('page').style.filter = "blur(2px)";
+      document.querySelector('footer.footer').style.filter = "blur(2px)";
+
     } else {
     	isVisible = "";
       if (pageYOffset > 150) {
@@ -72,6 +76,9 @@ class Panel extends Component {
       } else if (pageYOffset <= 150) {
         document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
       }
+
+      document.getElementById('page').style.filter = "";
+      document.querySelector('footer.footer').style.filter = "";
     }
 
     this.setState({
@@ -103,13 +110,12 @@ class Panel extends Component {
     		  <button id="el"></button>
     		</div>
     		
-    		<nav className={"js-menu sliding-panel-content " + this.state.isVisible} style={style}>
+    		<nav className={"js-menu sliding-panel-content " + this.state.isVisible} style={style} role="navigation">
     		  <ul>
     		    <li><a href="/about/">About</a></li>
     		    <li><a href="/blog/">Blog</a></li>
             <li><a href="/portfolio/">Portfolio</a></li>
     		  </ul>
-          
     		</nav>
 
     		<div className={"js-menu-screen sliding-panel-fade-screen " + this.state.isVisible} onClick={this.handleClick}></div>
