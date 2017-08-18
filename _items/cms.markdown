@@ -4,13 +4,22 @@ title: "Content Management System"
 date:   2017-05-20 12:31:00
 image: "https://kdubbels.github.io/images/cms/cms1.png"
 description: "A fully-functional, artisanal CMS built for a boutique financial services firm. I built the entire entire back-end and wrote all the JavaScript as part of a two-person team with a front-end designer."
-tech: "Ruby on Rails, React, jQuery, Foundation"
+tech: "Ruby on Rails, RSpec, Sinatra, React, jQuery, Foundation"
 ---
+
+
+## ##What It Is
+
+The "Content Management System" is a content management system built for a small financial services firm. It has the standard functionality of any content management system, but with extra style.
+
+![My helpful screenshot]({{ site.url }}/images/cms/cms1.png)
+
+## ##Technical Details
+
+This app was originally built using the PHP MVC framework Phalcon. The original app, intended as a proof of concept, ended up being incredibly brittle and crufty, requiring massive quantities of manhours to roll out new features. I rebuilt the entirety of the back-end with Rails 4. I utilized integration testing to alleviate a major on-going complaint of the client: that every new feature broke at least two other existing features.
 
 ![My helpful screenshot]({{ site.url }}/images/cms/cms1.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris id varius consectetur, metus felis feugiat nulla, sed gravida mi ante vel ipsum. Duis cursus ante nec orci sodales, facilisis porttitor nulla luctus. Morbi ac mauris sed nulla vulputate convallis vel sed dolor. Praesent at congue leo, vel gravida felis. Morbi hendrerit id tortor eget tristique. Sed porta lobortis mauris, ac aliquam ex interdum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus lorem, luctus quis nunc eget, porttitor vulputate turpis.
-
-![My helpful screenshot]({{ site.url }}/images/cms/cms1.png)
+Also in response to client requests, I designed and built a REST API with Sinatra in order to allow quicker iteration of features requiring Ajax. Features that had taken weeks to build in the previous version now took days, or even hours. The GIFs above and below show two features I built and rapidly rolled-out using this REST API in conjunction with React (above) and jQuery (below).
 
 ![My helpful screenshot]({{ site.url }}/images/cms/cms2.gif)
