@@ -12,7 +12,7 @@ tech: "React, D3, CSS3"
 
 I built this interactive line chart using D3 and React. Scrolling down the page triggers new lines to animate in. It also features animated explanatory text. The novelty of this chart is that previous data is faded (both the lines in the line chart and the explanatory text) when new data comes into view.
 
-![My helpful screenshot]({{ site.url }}/images/athena/athena1.gif)
+![Animated screenshot of Athena project]({{ site.url }}/images/athena/athena1.gif "Amazing event handling here")
 
 ## ##Technical Details
 
@@ -20,4 +20,4 @@ Two versions of this app were built. The original version was built by another d
 
 This was the first sizable project I ever wrote using React, although most of the work is being done by D3. The app is more or less one parent component that handles Ajax requests and three child components that do most of the direct DOM maniupation - one for the header text, one for the chart itself, and one for the text crawl on the botttom of the page.
 
-![My helpful screenshot]({{ site.url }}/images/athena/athena2.gif)
+![Animated screenshot of Athena project]({{ site.url }}/images/athena/athena2.gif "Wow - look at that blur transtion")
