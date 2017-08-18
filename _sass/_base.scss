@@ -24,6 +24,7 @@ th {
 td {
   background-color: inherit;
 }
+
 th, td {
   border: none; 
   color: inherit;
@@ -47,6 +48,22 @@ p, ul, li, th, td {
 	height: 100px;
 }
 
+footer nav {
+  clear: both;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+footer nav ul, li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+footer nav li {
+  display: inline-block;
+}
+
 header { 
   font-family: "Megrim", Helvetica, Arial, sans-serif;
   font-size: 44px;
@@ -68,29 +85,6 @@ h1.post-title {
   font-size: 84px;
 }
 
-/* Large */
-.navigation {
-  display: flex;
-  flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
-}
-
-/* Medium screens */
-@media all and (max-width: 800px) {
-  .navigation {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
-    justify-content: space-around;
-  }
-}
-
-/* Small screens */
-@media all and (max-width: 500px) {
-  .navigation {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
-  }
-}
 
 circle.theme-select {
   cursor: pointer;

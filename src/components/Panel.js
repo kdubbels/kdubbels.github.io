@@ -104,13 +104,13 @@ class Panel extends Component {
     }
 
     return (
-      <div className="Panel" style={paddingRight}>
+      <section className="Panel" style={paddingRight}>
 
         <div id="threeLines" className={this.state.isVisible ? "active" : ""} onClick={this.handleClick}>
     		  <button id="el"></button>
     		</div>
     		
-    		<nav className={"js-menu sliding-panel-content " + this.state.isVisible} style={style} role="navigation">
+    		<nav className={"js-menu sliding-panel-content " + this.state.isVisible} style={style}>
     		  <ul>
     		    <li><a href="/about/">About</a></li>
     		    <li><a href="/blog/">Blog</a></li>
@@ -120,7 +120,7 @@ class Panel extends Component {
 
     		<div className={"js-menu-screen sliding-panel-fade-screen " + this.state.isVisible} onClick={this.handleClick}></div>
 
-      </div>
+      </section>
     );
   }
 }

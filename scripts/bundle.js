@@ -13271,7 +13271,7 @@ var Panel = function (_Component) {
       };
 
       return _react2.default.createElement(
-        'div',
+        'section',
         { className: 'Panel', style: paddingRight },
         _react2.default.createElement(
           'div',
@@ -13280,7 +13280,7 @@ var Panel = function (_Component) {
         ),
         _react2.default.createElement(
           'nav',
-          { className: "js-menu sliding-panel-content " + this.state.isVisible, style: style, role: 'navigation' },
+          { className: "js-menu sliding-panel-content " + this.state.isVisible, style: style },
           _react2.default.createElement(
             'ul',
             null,
