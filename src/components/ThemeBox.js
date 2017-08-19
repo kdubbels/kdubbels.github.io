@@ -50,6 +50,9 @@ class ThemeBox extends Component {
     body.style.backgroundColor = localStorage.backgroundColor;
     body.style.color = localStorage.color;
 
+    document.querySelector('footer nav ul').style.backgroundColor = localStorage.getItem('color');
+    document.querySelector('footer nav ul').style.color = localStorage.getItem('backgroundColor');
+
   }
 
   render() {

@@ -37,6 +37,11 @@ class Panel extends Component {
         document.querySelector('header').style.color = localStorage.getItem('color');
         document.getElementById('el').style.backgroundColor = localStorage.getItem('color');
       }
+
+      document.querySelector('footer nav ul').style.backgroundColor = localStorage.getItem('color');
+      document.querySelector('footer nav ul').style.color = localStorage.getItem('backgroundColor');
+
+
     }
     window.onscroll = function() {
       if (pageYOffset > 150) {

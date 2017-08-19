@@ -55,13 +55,28 @@ footer nav {
   text-align: center;
 }
 
-footer nav ul, li {
+footer nav ul li {
   text-decoration: none;
   list-style-type: none;
 }
 
+footer nav ul li a {
+  text-decoration: none;
+}
+
+footer nav ul li a:hover,
+footer nav ul li a:active, {
+  text-decoration: underline;
+}
+
 footer nav li {
   display: inline-block;
+}
+
+footer nav ul {
+    bottom: 0;
+    position: relative;
+    margin: 0;
 }
 
 header { 
