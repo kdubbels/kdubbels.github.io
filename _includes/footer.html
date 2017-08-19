@@ -30,18 +30,21 @@ var fixedHeader = null
 // };
 
 var cb = function() {
-	var l = document.createElement('link'); l.rel = 'stylesheet';
+	var l = document.createElement('link');
+	l.rel = 'stylesheet';
 	l.href = "{{ "/css/main.css" | prepend: site.baseurl }}";
-	var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+	var h = document.getElementsByTagName('head')[0];
+	h.parentNode.insertBefore(l, h);
 	window.setTimeout(function() {
 		document.querySelector("body").style.display = "block";
-	}, 0);
+	},100);
 };
 
 var raf = requestAnimationFrame || mozRequestAnimationFrame ||
   webkitRequestAnimationFrame || msRequestAnimationFrame;
 
 if (raf) {
+	
 	raf(cb);
 } else {
 	window.addEventListener('load', cb);
