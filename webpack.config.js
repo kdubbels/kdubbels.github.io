@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
     entry: ["babel-polyfill","./src/index.js"],
     output: {
@@ -14,5 +16,15 @@ module.exports = {
                     }
             }
         ]
-    }
+    },
+    plugins: [
+    new webpack.DefinePlugin({ //<--key to reduce React's size
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
+    }),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.AggressiveMergingPlugin()
+  ],
 };
