@@ -7,9 +7,9 @@ description: "A series of data visualizations and UI widgets I built for CUSEF t
 tech: "React, D3"
 ---
 
-## ##What It Is
+## What It Is
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris id varius consectetur, metus felis feugiat nulla, sed gravida mi ante vel ipsum. Duis cursus ante nec orci sodales, facilisis porttitor nulla luctus. Morbi ac mauris sed nulla vulputate convallis vel sed dolor. Praesent at congue leo, vel gravida felis. Morbi hendrerit id tortor eget tristique. Sed porta lobortis mauris, ac aliquam ex interdum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus lorem, luctus quis nunc eget, porttitor vulputate turpis.
+This was a microsite built to illustrate the territorial disput over the South China Sea between China, Vietnam, and other nations.
 
 ![My helpful screenshot]({{ site.url }}/images/cusef/cusef1.gif)
 
@@ -19,8 +19,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris 
 
 ![My helpful screenshot]({{ site.url }}/images/cusef/cusef1.png)
 
-## ##Technical Details
+## Technical Details
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris id varius consectetur, metus felis feugiat nulla, sed gravida mi ante vel ipsum. Duis cursus ante nec orci sodales, facilisis porttitor nulla luctus. Morbi ac mauris sed nulla vulputate convallis vel sed dolor. Praesent at congue leo, vel gravida felis. Morbi hendrerit id tortor eget tristique. Sed porta lobortis mauris, ac aliquam ex interdum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus lorem, luctus quis nunc eget, porttitor vulputate turpis.
+This was built using React and D3. This was one of the first profjects I worked on where I really tried to integrate the two together. Some of the stuff in here is pretty novel - I am especially proud of the timeline time scale utility, which was the most complex bit of functionality on the whole site.
 
 ![My helpful screenshot]({{ site.url }}/images/cusef/cusef4.gif)

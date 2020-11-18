@@ -33,7 +33,7 @@ th, td {
 }
 
 p, ul, li, th, td {
-  font-family: 'Cousine', 'Helvetica', Arial, sans-serif;
+  font-family: 'Helvetica', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -41,7 +41,6 @@ p, ul, li, th, td {
 #page {
   padding-top: 120px;
   min-height: calc(100vh - 100px);
-  //transition: inherit;
 }
 
 .footer {
@@ -82,7 +81,7 @@ footer nav ul {
 }
 
 header { 
-  font-family: "Megrim", Helvetica, Arial, sans-serif;
+  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
   font-size: 44px;
   text-decoration: none;
   height: 120px;

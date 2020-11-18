@@ -97,7 +97,8 @@ class Panel extends Component {
   render() {
   	const style = {
   		backgroundColor: this.state.fill,
-  		color: this.state.stroke
+      color: this.state.stroke,
+      fontFamily: "'Helvetica', Arial",
   	};
 
     const elStyle = {
@@ -117,9 +118,9 @@ class Panel extends Component {
     		
     		<nav className={"js-menu sliding-panel-content " + this.state.isVisible} style={style}>
     		  <ul>
-    		    <li><a href="/about/">About</a></li>
-    		    <li><a href="/blog/">Blog</a></li>
-            <li><a href="/portfolio/">Portfolio</a></li>
+    		    <li><a href="/about/">ABOUT</a></li>
+    		    <li><a href="/blog/">BLOG</a></li>
+            <li><a href="/portfolio/">PORTFOLIO</a></li>
     		  </ul>
     		</nav>
 

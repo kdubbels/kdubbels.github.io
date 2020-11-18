@@ -8,13 +8,13 @@ tech: "React, D3, CSS3"
 ---
 
 
-## ##What It Is
+## What It Is
 
 I built this interactive line chart using D3 and React. Scrolling down the page triggers new lines to animate in. It also features animated explanatory text. The novelty of this chart is that previous data is faded (both the lines in the line chart and the explanatory text) when new data comes into view.
 
 ![Animated screenshot of Athena project]({{ site.url }}/images/athena/athena1.gif "Amazing event handling here")
 
-## ##Technical Details
+## Technical Details
 
 Two versions of this app were built. The original version was built by another developer with Angular and Highcharts. This initial app did not meet client requirements. I was brought into to "fix it". Highcharts is a great library for quick, no-effort visualizations, but I could tell immediately it was incapable of creating the final product the client wanted. After some tough conversations, I rebuilt the app in its entirety.
 

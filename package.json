@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/kdubbels/kdubbels.github.io.git"
   },
-  "author": "Kristofer Dubbels <dubbk381@alumni.newschool.edu> (http://kristoferdubbels.io/)",
+  "author": "Kristofer Dubbels <dubbk381@alumni.newschool.edu> (httpS://kdubbels.github.io/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kdubbels/kdubbels.github.io/issues"

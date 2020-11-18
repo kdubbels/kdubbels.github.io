@@ -8,13 +8,13 @@ tech: "Ruby on Rails, RSpec, Sinatra, React, jQuery, Foundation"
 ---
 
 
-## ##What It Is
+## What It Is
 
 The "Content Management System" is a content management system built for a small financial services firm. It has the standard functionality of any content management system, but with extra style.
 
 ![Static screenshot of CMS project]({{ site.url }}/images/cms/cms1.png "pretty slick imo")
 
-## ##Technical Details
+## Technical Details
 
 This app was originally built using the PHP MVC framework Phalcon. The original app, intended as a proof of concept, ended up being incredibly brittle and crufty, requiring massive quantities of manhours to roll out new features. I rebuilt the entirety of the back-end with Rails 4. I utilized integration testing to alleviate a major on-going complaint of the client: that every new feature broke at least two other existing features.
 

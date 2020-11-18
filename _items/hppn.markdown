@@ -7,17 +7,17 @@ description: "An interactive normal curve comparator I built for athenahealth, I
 tech: "React, D3, SVG"
 ---
 
-## ##What It Is
+## What It Is
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris id varius consectetur, metus felis feugiat nulla, sed gravida mi ante vel ipsum. Duis cursus ante nec orci sodales, facilisis porttitor nulla luctus. Morbi ac mauris sed nulla vulputate convallis vel sed dolor. Praesent at congue leo, vel gravida felis. Morbi hendrerit id tortor eget tristique. Sed porta lobortis mauris, ac aliquam ex interdum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus lorem, luctus quis nunc eget, porttitor vulputate turpis.
+A widget to explain patient pay yield. Athena actually made a YouTube video to explain it. Check it out: ![Patient Pay Yield Explainer](https://www.youtube.com/watch?v=gUd-I7MxKCQ)
 
 ![My helpful screenshot]({{ site.url }}/images/hppn/hppn1.gif)
 
 ![My helpful screenshot]({{ site.url }}/images/hppn/hppn1.png)
 
-## ##Technical Details
+## Technical Details
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat, mauris id varius consectetur, metus felis feugiat nulla, sed gravida mi ante vel ipsum. Duis cursus ante nec orci sodales, facilisis porttitor nulla luctus. Morbi ac mauris sed nulla vulputate convallis vel sed dolor. Praesent at congue leo, vel gravida felis. Morbi hendrerit id tortor eget tristique. Sed porta lobortis mauris, ac aliquam ex interdum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas risus lorem, luctus quis nunc eget, porttitor vulputate turpis.
+Built with D3 and React. This was one of the most challenging projects I've ever worked on, and I am exceptionally proud of it.
 
 ![My helpful screenshot]({{ site.url }}/images/hppn/hppn2.gif)
 
