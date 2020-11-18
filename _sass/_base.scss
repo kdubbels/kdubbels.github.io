@@ -116,3 +116,34 @@ circle.theme-select {
   }
 
 }
+
+.zhighlight {
+  position: relative;
+  display: inline-block;
+  background-color: yellow;
+  transform: scale(1.5) rotate(-2deg) skew(-20deg);
+  z-index: -1;
+}
+.zhighlight > * {
+  display: inherit;
+  transform: scale(0.7) rotate(2deg) skew(20deg);
+}
+
+.zhighlight-underline {
+  position: relative;
+  text-decoration: none;
+}
+.zhighlight-underline::before {
+  content: "";
+  position: absolute;
+  left: -5%;
+  bottom: -1px;
+  width: 110%;
+  height: 8px;
+  background-color: yellow;
+  z-index: -1;
+}
+
+.zhighlight-underline--center::before {
+  bottom: 4px;
+}
